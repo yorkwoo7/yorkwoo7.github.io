@@ -1,3 +1,4 @@
+http://example.com/2022/06/01/SVN_commit_LOG_hooks/
 http://example.com/2022/06/01/Frisbee_AUDL%20Top%2010%20Plays%20%20Week%204/
 http://example.com/about/index.html
 http://example.com/2022/05/29/Frisbee_2022%20AUDL%20Carolina%20Flyers%20at%20Tampa%20Bay%20Cannons%20week%202%20game/
@@ -10,4 +11,6 @@ http://example.com/tags/frisbee/
 http://example.com/tags/%E6%9E%81%E9%99%90%E9%A3%9E%E7%9B%98/
 http://example.com/tags/2022/
 http://example.com/tags/AUDL/
+http://example.com/tags/Server/
 http://example.com/categories/%E9%A3%9E%E7%9B%98/
+http://example.com/categories/IT/

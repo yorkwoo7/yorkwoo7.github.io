@@ -64,4 +64,42 @@
         <tag>极限飞盘</tag>
       </tags>
   </entry>
+  <entry>
+    <title>SVN commit LOG hooks</title>
+    <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
+    <content><![CDATA[<p>SVN commit LOG hooks</p>
+<p>VisualSVN Server是优秀的版本管理器。</p>
+<p>每次提交都编制清晰的LOG，将为版本反查提供便利，如何控制提交时的日志行为呢？</p>
+<p>比如我们要求使用者在提交内容时，强制必须提交日志，并且禁止使用空格凑字数。</p>
+<p>一、打开hooks管理器</p>
+<p><img src="/uploads/SVN_Menu.png"> </p>
+<p>二、打开Pre-commit hook</p>
+<p> <img src="/uploads/SVN_hooks.png">                              </p>
+<p> 三、粘贴脚本</p>
+<p> @echo off</p>
+<p>setlocal</p>
+<p>set REPOS&#x3D;%1</p>
+<p>set TXN&#x3D;%2</p>
+<p>rem 保障8个字符日志，一个句号一个字符。</p>
+<p>svnlook log “%REPOS%” -t “%TXN%” | findstr “……” &gt;nul</p>
+<p>if %errorlevel% gtr 0 goto :err</p>
+<p>rem 过滤空字符</p>
+<p>svnlook log “%REPOS%” -t “%TXN%” | findstr &#x2F;ic:”  “ &gt;nul</p>
+<p>if %errorlevel% gtr 0 goto :success</p>
+<p>:err</p>
+<p>echo 提交失败，请添加日志最少8个字。 1&gt;&amp;2</p>
+<p>echo <em><strong><strong>禁止空格凑字</strong></strong></em>* 1&gt;&amp;2</p>
+<p>goto :err_exit</p>
+<p>:err_exit</p>
+<p>exit 1</p>
+<p>:success</p>
+<p>exit 0</p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
 </search>

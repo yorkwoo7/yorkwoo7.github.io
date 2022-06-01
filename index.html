@@ -156,18 +156,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -212,6 +212,111 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/01/SVN_commit_LOG_hooks/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.gif">
+      <meta itemprop="name" content="安德">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="GOOD部落">
+      <meta itemprop="description" content="一个SMT、DFM、智能硬件、物联网、思维导图、产品设计、电子数码、极限飞盘相关内容分享创客自媒体。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | GOOD部落">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/06/01/SVN_commit_LOG_hooks/" class="post-title-link" itemprop="url">SVN commit LOG hooks</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-06-01 19:50:15 / 修改时间：19:59:28" itemprop="dateCreated datePublished" datetime="2022-06-01T19:50:15+08:00">2022-06-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/" itemprop="url" rel="index"><span itemprop="name">IT</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>SVN commit LOG hooks</p>
+<p>VisualSVN Server是优秀的版本管理器。</p>
+<p>每次提交都编制清晰的LOG，将为版本反查提供便利，如何控制提交时的日志行为呢？</p>
+<p>比如我们要求使用者在提交内容时，强制必须提交日志，并且禁止使用空格凑字数。</p>
+<p>一、打开hooks管理器</p>
+<p><img src="/uploads/SVN_Menu.png"> </p>
+<p>二、打开Pre-commit hook</p>
+<p> <img src="/uploads/SVN_hooks.png">                              </p>
+<p> 三、粘贴脚本</p>
+<p> @echo off</p>
+<p>setlocal</p>
+<p>set REPOS&#x3D;%1</p>
+<p>set TXN&#x3D;%2</p>
+<p>rem 保障8个字符日志，一个句号一个字符。</p>
+<p>svnlook log “%REPOS%” -t “%TXN%” | findstr “……” &gt;nul</p>
+<p>if %errorlevel% gtr 0 goto :err</p>
+<p>rem 过滤空字符</p>
+<p>svnlook log “%REPOS%” -t “%TXN%” | findstr &#x2F;ic:”  “ &gt;nul</p>
+<p>if %errorlevel% gtr 0 goto :success</p>
+<p>:err</p>
+<p>echo 提交失败，请添加日志最少8个字。 1&gt;&amp;2</p>
+<p>echo <em><strong><strong>禁止空格凑字</strong></strong></em>* 1&gt;&amp;2</p>
+<p>goto :err_exit</p>
+<p>:err_exit</p>
+<p>exit 1</p>
+<p>:success</p>
+<p>exit 0</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
