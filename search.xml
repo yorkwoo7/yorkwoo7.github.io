@@ -67,10 +67,10 @@
   <entry>
     <title>SVN commit LOG hooks</title>
     <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
-    <content><![CDATA[<p>SVN commit LOG hooks</p>
-<p>VisualSVN Server是优秀的版本管理器。</p>
+    <content><![CDATA[<h2 id="SVN-commit-LOG-hooks"><a href="#SVN-commit-LOG-hooks" class="headerlink" title="SVN commit LOG hooks"></a>SVN commit LOG hooks</h2><p>VisualSVN Server是优秀的版本管理器。</p>
 <p>每次提交都编制清晰的LOG，将为版本反查提供便利，如何控制提交时的日志行为呢？</p>
-<p>比如我们要求使用者在提交内容时，强制必须提交日志，并且禁止使用空格凑字数。</p>
+<p>比如我们有没有办法要求使用者在提交内容时，强制提交SVN日志，并且禁止使用空格凑字数？</p>
+<p>有，步骤如下：</p>
 <p>一、打开hooks管理器</p>
 <p><img src="/uploads/SVN_Menu.png"> </p>
 <p>二、打开Pre-commit hook</p>
@@ -88,7 +88,7 @@
 <p>if %errorlevel% gtr 0 goto :success</p>
 <p>:err</p>
 <p>echo 提交失败，请添加日志最少8个字。 1&gt;&amp;2</p>
-<p>echo <em><strong><strong>禁止空格凑字</strong></strong></em>* 1&gt;&amp;2</p>
+<p>echo 禁止空格凑字。 1&gt;&amp;2</p>
 <p>goto :err_exit</p>
 <p>:err_exit</p>
 <p>exit 1</p>
