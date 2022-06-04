@@ -4,7 +4,7 @@
   <url>
     <loc>http://example.com/2022/06/01/SVN_commit_LOG_hooks/</loc>
     
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,35 +84,35 @@
   
   <url>
     <loc>http://example.com/tags/frisbee/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E6%9E%81%E9%99%90%E9%A3%9E%E7%9B%98/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/2022/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/AUDL/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Server/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -121,14 +121,14 @@
   
   <url>
     <loc>http://example.com/categories/%E9%A3%9E%E7%9B%98/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/IT/</loc>
-    <lastmod>2022-06-01</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
