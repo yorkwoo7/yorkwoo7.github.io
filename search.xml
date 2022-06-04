@@ -89,4 +89,25 @@
         <tag>Server</tag>
       </tags>
   </entry>
+  <entry>
+    <title>SMD Code Databook 2010 Edition</title>
+    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
+    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition"><a href="#SMD-Code-Databook-2010-Edition" class="headerlink" title="SMD Code Databook 2010 Edition"></a>SMD Code Databook 2010 Edition</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
+<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过缩写或代号的形式在器件顶部丝印标识。</p>
+<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
+<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
+<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
+<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
+<p>关注微信公众号 <strong>GOOD部落</strong> ，在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+<p>解压密码为：<strong>6666</strong></p>
+]]></content>
+      <categories>
+        <category>SMT</category>
+      </categories>
+      <tags>
+        <tag>Datasheet</tag>
+        <tag>component</tag>
+      </tags>
+  </entry>
 </search>

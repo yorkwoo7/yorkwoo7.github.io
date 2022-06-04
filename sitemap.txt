@@ -1,3 +1,4 @@
+http://example.com/2022/06/04/SMD%20Data%20Book%202010%20Edition/
 http://example.com/2022/06/01/SVN_commit_LOG_hooks/
 http://example.com/2022/06/01/Frisbee_AUDL%20Top%2010%20Plays%20%20Week%204/
 http://example.com/about/index.html
@@ -12,5 +13,8 @@ http://example.com/tags/%E6%9E%81%E9%99%90%E9%A3%9E%E7%9B%98/
 http://example.com/tags/2022/
 http://example.com/tags/AUDL/
 http://example.com/tags/Server/
+http://example.com/tags/Datasheet/
+http://example.com/tags/component/
 http://example.com/categories/%E9%A3%9E%E7%9B%98/
 http://example.com/categories/IT/
+http://example.com/categories/SMT/
