@@ -67,8 +67,8 @@
   <entry>
     <title>SVN commit LOG hooks</title>
     <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
-    <content><![CDATA[<h2 id="SVN-commit-Log-hooks"><a href="#SVN-commit-Log-hooks" class="headerlink" title="SVN commit Log hooks"></a>SVN commit Log hooks</h2><p>VisualSVN Server是优秀的版本管理器，适用于Windows平台。VisualSVN为配置项提供了时光功能，每一次提交时的文件状态均有记录，包括“空”。</p>
-<p>VisualSVN的<strong>Repository</strong>在服务器端表现为DB文件，可以十分便利地完成备份，因此具备一定的勒索病毒防治能力。</p>
+    <content><![CDATA[<h2 id="SVN-commit-Log-hooks"><a href="#SVN-commit-Log-hooks" class="headerlink" title="SVN commit Log hooks"></a>SVN commit Log hooks</h2><p>SVN是优秀的版本管理器，VisualSVN适用于Windows平台，社区版本十分好用，企业版授权也费用不高。SVN为配置项提供了时光功能，每一次提交时的文件状态均有记录，包括“空”。</p>
+<p>SVN的<strong>Repository</strong>在服务器端表现为DB文件，可以十分便利地完成备份。勒索病毒通常锁定DOC、PDF、XLS等文件格式。DB组织+自动备份，可以提供部分勒索病毒防治能力。</p>
 <p>每次提交都编制清晰的日志（log），帮助更为有效地组织版本。如何规范每次提交时的日志呢？</p>
 <p>有没有办法让SVN使用者在提交内容时，强制编制日志，并且禁止使用空格凑字数？</p>
 <p>有，步骤如下：</p>
