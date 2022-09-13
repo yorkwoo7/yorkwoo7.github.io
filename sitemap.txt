@@ -1,4 +1,4 @@
-http://example.com/2022/08/25/DFM_serial_S1E2/
+http://example.com/2022/09/13/DFM_serial_S1E2/
 http://example.com/2022/08/25/DFM_serial_S1E1/
 http://example.com/2022/08/19/DFM_serial_S1E0/
 http://example.com/2022/07/05/How%20to%20detect%20enable%20and%20disable%20SMBv1%20SMBv2%20and%20SMBv3%20in%20Windows/
