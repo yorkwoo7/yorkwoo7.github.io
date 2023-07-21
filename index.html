@@ -156,7 +156,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -212,6 +212,98 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/21/%E7%AC%AC%E4%B8%89%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9C%8B%E5%88%B0Windows%E6%98%A0%E5%B0%84%E7%9B%98%E7%9A%84%E8%A7%A3%E5%86%B3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.gif">
+      <meta itemprop="name" content="安德">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="GOOD部落">
+      <meta itemprop="description" content="一个SMT、DFM、智能硬件、物联网、思维导图、产品设计、电子数码、极限飞盘相关内容分享创客自媒体。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | GOOD部落">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/07/21/%E7%AC%AC%E4%B8%89%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9C%8B%E5%88%B0Windows%E6%98%A0%E5%B0%84%E7%9B%98%E7%9A%84%E8%A7%A3%E5%86%B3/" class="post-title-link" itemprop="url">第三方软件看到Windows映射盘的解决</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-07-21 15:39:15 / 修改时间：15:43:02" itemprop="dateCreated datePublished" datetime="2023-07-21T15:39:15+08:00">2023-07-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/" itemprop="url" rel="index"><span itemprop="name">IT</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="第三方软件看到Windows映射盘的解决"><a href="#第三方软件看到Windows映射盘的解决" class="headerlink" title="第三方软件看到Windows映射盘的解决"></a>第三方软件看到Windows映射盘的解决</h2><p>有时候，我们在CMD使用net use命令或者在资源管理器映射网络驱动器之后，第三方软件却无法看到和使用这个磁盘。</p>
+<p>处理办法如下：</p>
+<p>1打开“程序和功能”里的“启用或关闭Windows功能”，“SMB直通”前打上勾</p>
+<p>2注册表创建EnableLinkedConnections</p>
+<p>详细步骤：</p>
+<ol>
+<li>单击“开始”，在“运行”框中键入regedit，然后按Enter。</li>
+<li>找到并右键单击注册表子项HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System</li>
+<li>指向“新建”，然后单击“DWORD值”。</li>
+<li>键入EnableLinkedConnections，然后按Enter。</li>
+<li>右键单击“EnableLinkedConnections”，然后单击“修改”。</li>
+<li>在“数值数据”框中，键入1，然后单击“确定”。</li>
+<li>退出注册表编辑器，然后重新启动计算机</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -1279,92 +1371,6 @@
     <div class="post-body" itemprop="articleBody">
           <p>Frisbee:AUDL Top 10 Plays  Week 4</p>
 <iframe src="//player.bilibili.com/player.html?aid=257008888&bvid=BV1mY411u7WV&cid=735107734&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/29/Frisbee_2022%20AUDL%20Carolina%20Flyers%20at%20Tampa%20Bay%20Cannons%20week%202%20game/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.gif">
-      <meta itemprop="name" content="安德">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GOOD部落">
-      <meta itemprop="description" content="一个SMT、DFM、智能硬件、物联网、思维导图、产品设计、电子数码、极限飞盘相关内容分享创客自媒体。">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GOOD部落">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/05/29/Frisbee_2022%20AUDL%20Carolina%20Flyers%20at%20Tampa%20Bay%20Cannons%20week%202%20game/" class="post-title-link" itemprop="url">Frisbee:2022 AUDL：Carolina Flyers at Tampa Bay Cannons week 2 game</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-05-29 17:34:46" itemprop="dateCreated datePublished" datetime="2022-05-29T17:34:46+08:00">2022-05-29</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-06-12 17:29:24" itemprop="dateModified" datetime="2022-06-12T17:29:24+08:00">2022-06-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E9%A3%9E%E7%9B%98/" itemprop="url" rel="index"><span itemprop="name">飞盘</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Frisbee:2022 AUDL：Carolina Flyers at Tampa Bay Cannons week 2 game</p>
-<iframe src="//player.bilibili.com/player.html?aid=511588681&bvid=BV1pu41167yn&cid=720351660&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
       
     </div>
