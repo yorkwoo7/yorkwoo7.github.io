@@ -525,4 +525,22 @@
         <tag>Server</tag>
       </tags>
   </entry>
+  <entry>
+    <title>内网远程桌面连接卡在加密很久的解决</title>
+    <url>/2023/07/21/%E5%86%85%E7%BD%91%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5%E5%8D%A1%E5%9C%A8%E5%8A%A0%E5%AF%86%E5%BE%88%E4%B9%85%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h2 id="内网远程桌面长时间加密远程连接的解决"><a href="#内网远程桌面长时间加密远程连接的解决" class="headerlink" title="内网远程桌面长时间加密远程连接的解决"></a>内网远程桌面长时间加密远程连接的解决</h2><p>内网使用远程桌面时，一直提示“正在加密远程连接…”，很久才能连接上。产生的原因是内网没有互联网连接，无法连接到证书服务器，一直等到连接超时，才继续执行。</p>
+<p>解决办法是关闭证书更新。</p>
+<p>1、键入组合键Win+R，输入gpedit.msc，回车进入组策略管理器</p>
+<p>2、选择“计算机配置”&gt;”管理模板”</p>
+<p>3、选择“系统”&gt;“internet通信管理”&gt;选择”Internet通信设置“</p>
+<p>4、双击”关闭根证书更新“，将值改为”已启用“</p>
+<p>5、键入组合键Win+R，输入gpupdate &#x2F;force 回车，更新组策略或者重新启动操作系统，生效。</p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
 </search>
