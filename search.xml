@@ -451,6 +451,7 @@
 <p>3、选择“系统”&gt;“internet通信管理”&gt;选择”Internet通信设置“</p>
 <p>4、双击”关闭根证书更新“，将值改为”已启用“</p>
 <p>5、键入组合键Win+R，输入gpupdate &#x2F;force 回车，更新组策略或者重新启动操作系统，生效。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
 ]]></content>
       <categories>
         <category>IT</category>
@@ -504,37 +505,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第三方软件看到Windows映射盘的解决</title>
-    <url>/2023/07/21/Third%20app%20cant%20see%20that%20Windows%20map%20disk%20issue/</url>
-    <content><![CDATA[<h2 id="第三方软件看到Windows映射盘的解决"><a href="#第三方软件看到Windows映射盘的解决" class="headerlink" title="第三方软件看到Windows映射盘的解决"></a>第三方软件看到Windows映射盘的解决</h2><p>有时候，我们在CMD使用net use命令或者在资源管理器映射网络驱动器之后，第三方软件却无法看到和使用这个磁盘。</p>
-<p>处理办法如下：</p>
-<p>1打开“程序和功能”里的“启用或关闭Windows功能”，“SMB直通”前打上勾</p>
-<p>2注册表创建EnableLinkedConnections</p>
-<p>详细步骤：</p>
-<ol>
-<li>单击“开始”，在“运行”框中键入regedit，然后按Enter。</li>
-<li>找到并右键单击注册表子项HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System</li>
-<li>指向“新建”，然后单击“DWORD值”。</li>
-<li>键入EnableLinkedConnections，然后按Enter。</li>
-<li>右键单击“EnableLinkedConnections”，然后单击“修改”。</li>
-<li>在“数值数据”框中，键入1，然后单击“确定”。</li>
-<li>退出注册表编辑器，然后重新启动计算机</li>
-</ol>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>修复windows回收站</title>
     <url>/2022/07/05/repair%20recycle%20bin/</url>
     <content><![CDATA[<h2 id="修复Windows回收站"><a href="#修复Windows回收站" class="headerlink" title="修复Windows回收站"></a>修复Windows回收站</h2><p>没有注意，Windows 7的回收站经过VMWare OS optimized tool优化过后，回收站不可用，文件删除时被强制永久删除，并且回收站的配置属性变为灰色，无法修改。OS optimized tool的Rollback还没有这个选项的回复，怎么办？</p>
 <p>将以下内容保存为xxx.reg，双击导入注册表，重启即可。</p>
 <p>Windows Registry Editor Version 5.00</p>
 <p>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]<br>“NoRecycleFiles”&#x3D;dword:00000000<br>“ConfirmFileDelete”&#x3D;dword:00000000</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
 ]]></content>
       <categories>
         <category>IT</category>
@@ -548,6 +525,39 @@
     <url>/2024/04/06/reinstall%20test/</url>
     <content><![CDATA[<h2 id="reinstall-test"><a href="#reinstall-test" class="headerlink" title="reinstall test"></a>reinstall test</h2><p>hello world</p>
 <p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第三方软件看到Windows映射盘的解决</title>
+    <url>/2023/07/21/Third%20app%20cant%20find%20that%20Windows%20map%20disk%20issue/</url>
+    <content><![CDATA[<h2 id="第三方软件看到Windows映射盘的解决"><a href="#第三方软件看到Windows映射盘的解决" class="headerlink" title="第三方软件看到Windows映射盘的解决"></a>第三方软件看到Windows映射盘的解决</h2><p>有时候，我们在CMD使用net use命令或者在资源管理器映射网络驱动器之后，第三方软件却无法看到和使用这个磁盘。</p>
+<p>处理办法如下：</p>
+<p>1打开“程序和功能”里的“启用或关闭Windows功能”，“SMB直通”前打上勾</p>
+<p>2注册表创建EnableLinkedConnections</p>
+<p>详细步骤：</p>
+<ol>
+<li><p>单击“开始”，在“运行”框中键入regedit，然后按Enter。</p>
+</li>
+<li><p>找到并右键单击注册表子项HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System</p>
+</li>
+<li><p>指向“新建”，然后单击“DWORD值”。</p>
+</li>
+<li><p>键入EnableLinkedConnections，然后按Enter。</p>
+</li>
+<li><p>右键单击“EnableLinkedConnections”，然后单击“修改”。</p>
+</li>
+<li><p>在“数值数据”框中，键入1，然后单击“确定”。</p>
+</li>
+<li><p>退出注册表编辑器，然后重新启动计算机</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>IT</category>
