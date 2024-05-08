@@ -567,14 +567,9 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/04/30/%E6%B0%94%E7%9B%B8%E6%B1%BD%E7%9B%B8%E4%B9%8B%E4%BA%89/</url>
-    <content><![CDATA[<p>title: 气相&#x2F;汽相之争</p>
-<p>date: 2024-04-30 18:39:15</p>
-<p>tags: SMT,真空气相焊,汽相焊;</p>
-<p>categories:</p>
-<p>- SMT,Reflow</p>
-<h1 id="气相-x2F-汽相之争"><a href="#气相-x2F-汽相之争" class="headerlink" title="气相&#x2F;汽相之争"></a><strong>气相&#x2F;汽相之争</strong></h1><p>（未询问讨论人的个人意见，文章中人物身份均做消隐处理）</p>
+    <title>气相/汽相之争</title>
+    <url>/2024/04/30/disforqiqi/</url>
+    <content><![CDATA[<h2 id="气相-x2F-汽相之争"><a href="#气相-x2F-汽相之争" class="headerlink" title="气相&#x2F;汽相之争"></a><strong>气相&#x2F;汽相之争</strong></h2><p>（未询问讨论人的个人意见，文章中人物身份均做消隐处理）</p>
 <p>今天(24-04-30)大家为气相&#x2F;汽相争论不休了。</p>
 <p>起因是昨天（4-29号）EMI电子制造产业学院公众号发布了《真空气相焊专项精修训练营报名通知》。</p>
 <p><img src="/uploads/discu_vap/post_jt.jpg" alt="img"></p>
@@ -600,7 +595,7 @@
 <p><img src="/uploads/discu_vap/wyp.jpg" alt="img"></p>
 <p><img src="/uploads/discu_vap/ycy.jpg" alt="img"></p>
 <p><img src="/uploads/discu_vap/yxy.jpg" alt="img"></p>
-<p><img src="/uploads/discu_vap/xlf.jpg" alt="img"></p>
+<p><img src="/uploads/discu_vap/xlf.png" alt="img"></p>
 <p>最终的意见好像倒向 “气”、“汽”都可以，因为中文中，这两个字平常使用就十分地混淆。</p>
 <p>AI大模型是什么想法呢？</p>
 <p>暗之月面KIMI大模型的意见：</p>
@@ -610,5 +605,14 @@
 <p>那么，请问您的意见呢？</p>
 <p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
 ]]></content>
+      <categories>
+        <category>SMT</category>
+        <category>Reflow</category>
+      </categories>
+      <tags>
+        <tag>SMT</tag>
+        <tag>真空气相焊</tag>
+        <tag>汽相焊</tag>
+      </tags>
   </entry>
 </search>
