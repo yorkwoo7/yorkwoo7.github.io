@@ -85,10 +85,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Frisbee:AUDL Top 10 Plays Week 4</title>
-    <url>/2022/06/01/Frisbee_AUDL%20Top%2010%20Plays%20%20Week%204/</url>
-    <content><![CDATA[<p>Frisbee:AUDL Top 10 Plays  Week 4</p>
-<iframe src="//player.bilibili.com/player.html?aid=257008888&bvid=BV1mY411u7WV&cid=735107734&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    <title>Frisbee:AUDL Highlights &#39;Re-cut&#39;</title>
+    <url>/2022/05/29/Frisbee_AUDL%20Highlights%20&#39;Re-cut&#39;/</url>
+    <content><![CDATA[<p>Frisbee:AUDL Highlights ‘Re-cut’</p>
+<iframe src="//player.bilibili.com/player.html?aid=638883551&bvid=BV1PY4y1r7yp&cid=717666278&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ]]></content>
       <categories>
         <category>飞盘</category>
@@ -99,10 +99,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Frisbee:AUDL Highlights &#39;Re-cut&#39;</title>
-    <url>/2022/05/29/Frisbee_AUDL%20Highlights%20&#39;Re-cut&#39;/</url>
-    <content><![CDATA[<p>Frisbee:AUDL Highlights ‘Re-cut’</p>
-<iframe src="//player.bilibili.com/player.html?aid=638883551&bvid=BV1PY4y1r7yp&cid=717666278&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    <title>Frisbee:AUDL Top 10 Plays Week 4</title>
+    <url>/2022/06/01/Frisbee_AUDL%20Top%2010%20Plays%20%20Week%204/</url>
+    <content><![CDATA[<p>Frisbee:AUDL Top 10 Plays  Week 4</p>
+<iframe src="//player.bilibili.com/player.html?aid=257008888&bvid=BV1mY411u7WV&cid=735107734&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ]]></content>
       <categories>
         <category>飞盘</category>
@@ -129,29 +129,6 @@
       </categories>
       <tags>
         <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SMD Code Databook 2010 Edition</title>
-    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
-    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
-<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
-<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
-<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
-<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
-<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
-<p>关注微信公众号 <strong>GOOD部落</strong> </p>
-<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
-<p>解压密码：<strong>6666</strong></p>
-<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>SMT</category>
-      </categories>
-      <tags>
-        <tag>Datasheet</tag>
-        <tag>component</tag>
       </tags>
   </entry>
   <entry>
@@ -461,23 +438,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/05/27/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>SVN commit LOG hooks</title>
+    <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
+    <content><![CDATA[<h2 id="SVN-commit-Log-hooks"><a href="#SVN-commit-Log-hooks" class="headerlink" title="SVN commit Log hooks"></a>SVN commit Log hooks</h2><p>SVN是优秀的版本管理器，VisualSVN+TortoriseSVN组合适用于Windows平台。</p>
+<p>SVN为配置项提供”时光“功能，每一次提交时的文件状态均有记录，包括“空”状态。通过SVN，随时可以“穿梭”到某一次提交时的状态。</p>
+<p>SVN的<strong>Repository</strong>外在表现为DB，可以十分便利地完成备份，同时勒索病毒通常锁定DOC、PDF、XLS等文件格式。DB组织+自动备份，可以提供部分勒索病毒防治能力。</p>
+<p>每次提交内容给服务器时都编制清晰的日志（log），可以帮助更为有效地组织和管理版本。</p>
+<p>如何规范每次提交时的日志呢？有没有办法让SVN使用者在提交内容时，强制编制日志，并且禁止使用空格凑字数？</p>
+<p>有，步骤如下：</p>
+<p>一、打开hooks管理器</p>
+<p><img src="/uploads/SVN_Menu.png"> </p>
+<p>二、打开Pre-commit hook</p>
+<p> <img src="/uploads/SVN_hooks.png">                              </p>
+<p> 三、粘贴脚本</p>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"> @<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">setlocal</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> REPOS=%<span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> TXN=%<span class="number">2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 保障8个字符日志。一个句号代表一个字符。</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> &quot;……&quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :err</span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 过滤空字符</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> /ic:&quot;  &quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :success</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 提交失败，请添加日志最少<span class="number">8</span>个字符。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 禁止空格凑字。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">goto</span> :err_exit</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err_exit</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:success</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+<p>搞定，试一下吧。</p>
 ]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
   </entry>
   <entry>
     <title>第三方软件看到Windows映射盘的解决</title>
@@ -513,57 +496,26 @@
       </tags>
   </entry>
   <entry>
-    <title>reinstall test</title>
-    <url>/2024/04/06/reinstall%20test/</url>
-    <content><![CDATA[<h2 id="reinstall-test"><a href="#reinstall-test" class="headerlink" title="reinstall test"></a>reinstall test</h2><p>hello world</p>
+    <title>SMD Code Databook 2010 Edition</title>
+    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
+    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
+<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
+<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
+<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
+<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
+<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
+<p>关注微信公众号 <strong>GOOD部落</strong> </p>
+<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
+<p>解压密码：<strong>6666</strong></p>
+<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
 <p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
 ]]></content>
       <categories>
-        <category>IT</category>
+        <category>SMT</category>
       </categories>
       <tags>
-        <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SVN commit LOG hooks</title>
-    <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
-    <content><![CDATA[<h2 id="SVN-commit-Log-hooks"><a href="#SVN-commit-Log-hooks" class="headerlink" title="SVN commit Log hooks"></a>SVN commit Log hooks</h2><p>SVN是优秀的版本管理器，VisualSVN+TortoriseSVN组合适用于Windows平台。</p>
-<p>SVN为配置项提供”时光“功能，每一次提交时的文件状态均有记录，包括“空”状态。通过SVN，随时可以“穿梭”到某一次提交时的状态。</p>
-<p>SVN的<strong>Repository</strong>外在表现为DB，可以十分便利地完成备份，同时勒索病毒通常锁定DOC、PDF、XLS等文件格式。DB组织+自动备份，可以提供部分勒索病毒防治能力。</p>
-<p>每次提交内容给服务器时都编制清晰的日志（log），可以帮助更为有效地组织和管理版本。</p>
-<p>如何规范每次提交时的日志呢？有没有办法让SVN使用者在提交内容时，强制编制日志，并且禁止使用空格凑字数？</p>
-<p>有，步骤如下：</p>
-<p>一、打开hooks管理器</p>
-<p><img src="/uploads/SVN_Menu.png"> </p>
-<p>二、打开Pre-commit hook</p>
-<p> <img src="/uploads/SVN_hooks.png">                              </p>
-<p> 三、粘贴脚本</p>
-<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"> @<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">setlocal</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> REPOS=%<span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> TXN=%<span class="number">2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 保障8个字符日志。一个句号代表一个字符。</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> &quot;……&quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :err</span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 过滤空字符</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> /ic:&quot;  &quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :success</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 提交失败，请添加日志最少<span class="number">8</span>个字符。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 禁止空格凑字。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">goto</span> :err_exit</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err_exit</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:success</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
-
-<p>搞定，试一下吧。</p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>修复windows回收站</title>
-    <url>/2022/07/05/repair%20recycle%20bin/</url>
-    <content><![CDATA[<h2 id="修复Windows回收站"><a href="#修复Windows回收站" class="headerlink" title="修复Windows回收站"></a>修复Windows回收站</h2><p>没有注意，Windows 7的回收站经过VMWare OS optimized tool优化过后，回收站不可用，文件删除时被强制永久删除，并且回收站的配置属性变为灰色，无法修改。OS optimized tool的Rollback还没有这个选项的回复，怎么办？</p>
-<p>将以下内容保存为xxx.reg，双击导入注册表，重启即可。</p>
-<p>Windows Registry Editor Version 5.00</p>
-<p>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]<br>“NoRecycleFiles”&#x3D;dword:00000000<br>“ConfirmFileDelete”&#x3D;dword:00000000</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>system</tag>
+        <tag>Datasheet</tag>
+        <tag>component</tag>
       </tags>
   </entry>
   <entry>
@@ -592,9 +544,13 @@
 <p>大佬们中间在持续讨论，表达各自意见。</p>
 <p><img src="/uploads/discu_vap/bigboss.jpg" alt="img"></p>
 <p>于是加大了讨论范围，和业界大佬、专家、老师们一起。</p>
+<p>吴老师</p>
 <p><img src="/uploads/discu_vap/wyp.jpg" alt="img"></p>
+<p>余老师</p>
 <p><img src="/uploads/discu_vap/ycy.jpg" alt="img"></p>
+<p>杨老师</p>
 <p><img src="/uploads/discu_vap/yxy.jpg" alt="img"></p>
+<p>徐老师</p>
 <p><img src="/uploads/discu_vap/xlf.png" alt="img"></p>
 <p>最终的意见好像倒向 “气”、“汽”都可以，因为中文中，这两个字平常使用就十分地混淆。</p>
 <p>AI大模型是什么想法呢？</p>
@@ -613,6 +569,115 @@
         <tag>SMT</tag>
         <tag>真空气相焊</tag>
         <tag>汽相焊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/05/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Visual Component 4.7 Blender渲染插件安装</title>
+    <url>/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/</url>
+    <content><![CDATA[<h2 id="Visual-Component-4-7-Blender渲染插件安装"><a href="#Visual-Component-4-7-Blender渲染插件安装" class="headerlink" title="Visual Component 4.7 Blender渲染插件安装"></a>Visual Component 4.7 Blender渲染插件安装</h2><p><strong>Visual Components</strong>（简称VC），是一款在智能制造、数字化工厂和数字孪生领域广泛使用的3D制造仿真软件。它以直观的界面和对多种CAD文件格式的支持，为用户提供了轻松设计和集成数字仿真环境的可能。</p>
+<p><strong>Blender</strong>，作为一款功能全面的免费开源3D创作套件，不仅支持建模、渲染、动画制作等3D管线的各个环节，而且在电影工业中也得到了广泛应用。</p>
+<p>通过将VC与Blender结合，用户可以直接在Blender中操作和渲染VC的3D模型，实现更为逼真的视觉效果。以下是渲染前后的对比图：</p>
+<ul>
+<li><p>渲染前的视觉效果</p>
+<p><img src="/uploads/blender/render-b.png" alt="img"></p>
+</li>
+<li><p>渲染后的视觉效果</p>
+<p><img src="/uploads/blender/render-a.png" alt="img"></p>
+</li>
+</ul>
+<p>通过大量时间的投入，甚至可以达到下图所示的高质量效果。</p>
+<p><img src="/uploads/blender/render-c.png" alt="img"></p>
+<p>实际上，VC支持Blender插件化，这使得两者的结合更加紧密，无需导入导出模型，使用起来更为便捷。然而，在安装过程中，我遇到了一些挑战。尽管最终问题得以解决，但这个过程耗费了我近4个小时。在此，我记录下这些经验，希望对同样使用VC 4.7版本的人有所帮助。</p>
+<p><strong>安装步骤：</strong></p>
+<ol>
+<li><p><strong>安装Visual Components 4.7</strong>：这是一个Autodesk的付费软件，请自行准备。</p>
+</li>
+<li><p><strong>安装Blender</strong>：建议使用长期支持版本（LTS）。安装过程简单，按照默认选项直至完成。若遇到问题，建议自行搜索解决方案或使用我提供的下载链接:</p>
+<p> <a href="https://pan.baidu.com/s/1951ln9k4H-wzYyh_EHEi1A?pwd=6666">https://pan.baidu.com/s/1951ln9k4H-wzYyh_EHEi1A?pwd=6666</a></p>
+</li>
+<li><p><strong>准备Blender****插件</strong>：请使用与Blender版本相匹配的插件。如果你不想自己寻找，可以使用我提供的下载链接:</p>
+<p> <a href="https://pan.baidu.com/s/16--R4Bmz3x8tSifaK4kZew?pwd=6666">https://pan.baidu.com/s/16--R4Bmz3x8tSifaK4kZew?pwd=6666</a></p>
+</li>
+</ol>
+<p>安装Blender插件就是本文重点了。</p>
+<p>​    首先我们参考了官方文档</p>
+<p><img src="/uploads/blender/wrongofficaldoc0.jpg" alt="img"></p>
+<p>结果官方文档是错的！安装之后，VC里面始终找不到Render菜单。</p>
+<p>百度之，结果资料极少，看着日期很新，但是操作明显不对，根本没有这些菜单和工具栏。</p>
+<p><img src="/uploads/blender/wrongdoc1.png" alt="img"></p>
+<p>继续各种搜索，各种尝试。</p>
+<p><img src="/uploads/blender/ask.jpg" alt="img"></p>
+<p>因为此前从没有安装过，心里完全没有谱。甚至还怀疑起会不会是VC、Blender、Blender Plugin三者软件版本的配套关系有问题。</p>
+<p>得用啊，不死心，反复下载不同的版本，尝试在不同的目录进行安装和测试。一些安装包还只在只有外网才有，好一通折腾。</p>
+<p>但有时候不是努力就有效果的。几个小时过去，翻遍了B站和Youtube，无果。</p>
+<p>就连万能的OpenGPT也说起了车轱辘话，没了主意。</p>
+<p>其实已经快放弃了，直到准备保存一个模型，打开了目录。</p>
+<p><img src="/uploads/blender/cdir.png" alt="img"></p>
+<p>发现这儿有一个My Commands，尝试把Blender Plugins放进去。</p>
+<p><img src="/uploads/blender/instc.png" alt="img"></p>
+<p>终于看到了Blender的选项，我服了写官方文档的老6，你想写的其实是放进我的文档下的Visual Components下吧？！</p>
+<p>顺便写一个问题2</p>
+<p>指定渲染路径时，提示不能选择输出的文件。</p>
+<p>搜索发现不少人在问。</p>
+<p><img src="/uploads/blender/Q2.png" alt="img"></p>
+<p>解决办法：在你想要输出的目标，手工任置一个[文件名].png，再重新指定渲染路径为这个文件。完成后，这个文件就可以删除了，输出目录也成功设定了。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>TWINS</tag>
+        <tag>数字孪生</tag>
+        <tag>Blender插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>reinstall test</title>
+    <url>/2024/04/06/reinstall%20test/</url>
+    <content><![CDATA[<h2 id="reinstall-test"><a href="#reinstall-test" class="headerlink" title="reinstall test"></a>reinstall test</h2><p>hello world</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>修复windows回收站</title>
+    <url>/2022/07/05/repair%20recycle%20bin/</url>
+    <content><![CDATA[<h2 id="修复Windows回收站"><a href="#修复Windows回收站" class="headerlink" title="修复Windows回收站"></a>修复Windows回收站</h2><p>没有注意，Windows 7的回收站经过VMWare OS optimized tool优化过后，回收站不可用，文件删除时被强制永久删除，并且回收站的配置属性变为灰色，无法修改。OS optimized tool的Rollback还没有这个选项的回复，怎么办？</p>
+<p>将以下内容保存为xxx.reg，双击导入注册表，重启即可。</p>
+<p>Windows Registry Editor Version 5.00</p>
+<p>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]<br>“NoRecycleFiles”&#x3D;dword:00000000<br>“ConfirmFileDelete”&#x3D;dword:00000000</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>system</tag>
       </tags>
   </entry>
 </search>

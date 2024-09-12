@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/uploads/GOOD%20Blog_LOGO_appletouch.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/uploads/GOOD%20Blog_LOGO%2032%20x%2032.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/uploads/GOOD%20Blog_LOGO%2016%20x%2016.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.11.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Visual Component 4.7 Blender渲染插件安装Visual Components（简称VC），是一款在智能制造、数字化工厂和数字孪生领域广泛使用的3D制造仿真软件。它以直观的界面和对多种CAD文件格式的支持，为用户提供了轻松设计和集成数字仿真环境的可能。 Blender，作为一款功能全面的免费开源3D创作套件，不仅支持建模、渲染、动画制作等3D管线的各个环节，而且在电影工业中">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Visual Component 4.7 Blender渲染插件安装">
+<meta property="og:url" content="http://example.com/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/index.html">
+<meta property="og:site_name" content="GOOD部落">
+<meta property="og:description" content="Visual Component 4.7 Blender渲染插件安装Visual Components（简称VC），是一款在智能制造、数字化工厂和数字孪生领域广泛使用的3D制造仿真软件。它以直观的界面和对多种CAD文件格式的支持，为用户提供了轻松设计和集成数字仿真环境的可能。 Blender，作为一款功能全面的免费开源3D创作套件，不仅支持建模、渲染、动画制作等3D管线的各个环节，而且在电影工业中">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/uploads/blender/render-b.png">
+<meta property="og:image" content="http://example.com/uploads/blender/render-a.png">
+<meta property="og:image" content="http://example.com/uploads/blender/render-c.png">
+<meta property="og:image" content="http://example.com/uploads/blender/wrongofficaldoc0.jpg">
+<meta property="og:image" content="http://example.com/uploads/blender/wrongdoc1.png">
+<meta property="og:image" content="http://example.com/uploads/blender/ask.jpg">
+<meta property="og:image" content="http://example.com/uploads/blender/cdir.png">
+<meta property="og:image" content="http://example.com/uploads/blender/instc.png">
+<meta property="og:image" content="http://example.com/uploads/blender/Q2.png">
+<meta property="og:image" content="http://example.com/uploads/WeChat_channel.png">
+<meta property="article:published_time" content="2024-09-12T14:50:15.000Z">
+<meta property="article:modified_time" content="2024-09-12T15:29:17.109Z">
+<meta property="article:author" content="安德">
+<meta property="article:tag" content="TWINS">
+<meta property="article:tag" content="数字孪生">
+<meta property="article:tag" content="Blender插件">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/uploads/blender/render-b.png">
+
+
+<link rel="canonical" href="http://example.com/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/","path":"2024/09/12/Visual Component 4.7 Blender plugin install issue/","title":"Visual Component 4.7 Blender渲染插件安装"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Visual Component 4.7 Blender渲染插件安装 | GOOD部落</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">GOOD部落</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Visual-Component-4-7-Blender%E6%B8%B2%E6%9F%93%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="nav-number">1.</span> <span class="nav-text">Visual Component 4.7 Blender渲染插件安装</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="安德"
+      src="/uploads/avatar.gif">
+  <p class="site-author-name" itemprop="name">安德</p>
+  <div class="site-description" itemprop="description">一个SMT、DFM、智能硬件、物联网、思维导图、产品设计、电子数码、极限飞盘相关内容分享创客自媒体。</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/134945078" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;134945078" rel="noopener" target="_blank"><i class="fa-brands fa-bilibili fa-fw"></i>Bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/BT__James" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;BT__James" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+	  <div class="wechat_channel">
+        <br>
+        <!-- 这里添加你的二维码图片 -->
+        <img src ="/uploads/WeChat_channel.png">
+        <!-- <span>公众号</span> -->
+      </div>
+	 </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.gif">
+      <meta itemprop="name" content="安德">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="GOOD部落">
+      <meta itemprop="description" content="一个SMT、DFM、智能硬件、物联网、思维导图、产品设计、电子数码、极限飞盘相关内容分享创客自媒体。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Visual Component 4.7 Blender渲染插件安装 | GOOD部落">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Visual Component 4.7 Blender渲染插件安装
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-09-12 22:50:15 / 修改时间：23:29:17" itemprop="dateCreated datePublished" datetime="2024-09-12T22:50:15+08:00">2024-09-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/" itemprop="url" rel="index"><span itemprop="name">IT</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="Visual-Component-4-7-Blender渲染插件安装"><a href="#Visual-Component-4-7-Blender渲染插件安装" class="headerlink" title="Visual Component 4.7 Blender渲染插件安装"></a>Visual Component 4.7 Blender渲染插件安装</h2><p><strong>Visual Components</strong>（简称VC），是一款在智能制造、数字化工厂和数字孪生领域广泛使用的3D制造仿真软件。它以直观的界面和对多种CAD文件格式的支持，为用户提供了轻松设计和集成数字仿真环境的可能。</p>
+<p><strong>Blender</strong>，作为一款功能全面的免费开源3D创作套件，不仅支持建模、渲染、动画制作等3D管线的各个环节，而且在电影工业中也得到了广泛应用。</p>
+<p>通过将VC与Blender结合，用户可以直接在Blender中操作和渲染VC的3D模型，实现更为逼真的视觉效果。以下是渲染前后的对比图：</p>
+<ul>
+<li><p>渲染前的视觉效果</p>
+<p><img src="/uploads/blender/render-b.png" alt="img"></p>
+</li>
+<li><p>渲染后的视觉效果</p>
+<p><img src="/uploads/blender/render-a.png" alt="img"></p>
+</li>
+</ul>
+<p>通过大量时间的投入，甚至可以达到下图所示的高质量效果。</p>
+<p><img src="/uploads/blender/render-c.png" alt="img"></p>
+<p>实际上，VC支持Blender插件化，这使得两者的结合更加紧密，无需导入导出模型，使用起来更为便捷。然而，在安装过程中，我遇到了一些挑战。尽管最终问题得以解决，但这个过程耗费了我近4个小时。在此，我记录下这些经验，希望对同样使用VC 4.7版本的人有所帮助。</p>
+<p><strong>安装步骤：</strong></p>
+<ol>
+<li><p><strong>安装Visual Components 4.7</strong>：这是一个Autodesk的付费软件，请自行准备。</p>
+</li>
+<li><p><strong>安装Blender</strong>：建议使用长期支持版本（LTS）。安装过程简单，按照默认选项直至完成。若遇到问题，建议自行搜索解决方案或使用我提供的下载链接:</p>
+<p> <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1951ln9k4H-wzYyh_EHEi1A?pwd=6666">https://pan.baidu.com/s/1951ln9k4H-wzYyh_EHEi1A?pwd=6666</a></p>
+</li>
+<li><p><strong>准备Blender****插件</strong>：请使用与Blender版本相匹配的插件。如果你不想自己寻找，可以使用我提供的下载链接:</p>
+<p> <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/16--R4Bmz3x8tSifaK4kZew?pwd=6666">https://pan.baidu.com/s/16--R4Bmz3x8tSifaK4kZew?pwd=6666</a></p>
+</li>
+</ol>
+<p>安装Blender插件就是本文重点了。</p>
+<p>​    首先我们参考了官方文档</p>
+<p><img src="/uploads/blender/wrongofficaldoc0.jpg" alt="img"></p>
+<p>结果官方文档是错的！安装之后，VC里面始终找不到Render菜单。</p>
+<p>百度之，结果资料极少，看着日期很新，但是操作明显不对，根本没有这些菜单和工具栏。</p>
+<p><img src="/uploads/blender/wrongdoc1.png" alt="img"></p>
+<p>继续各种搜索，各种尝试。</p>
+<p><img src="/uploads/blender/ask.jpg" alt="img"></p>
+<p>因为此前从没有安装过，心里完全没有谱。甚至还怀疑起会不会是VC、Blender、Blender Plugin三者软件版本的配套关系有问题。</p>
+<p>得用啊，不死心，反复下载不同的版本，尝试在不同的目录进行安装和测试。一些安装包还只在只有外网才有，好一通折腾。</p>
+<p>但有时候不是努力就有效果的。几个小时过去，翻遍了B站和Youtube，无果。</p>
+<p>就连万能的OpenGPT也说起了车轱辘话，没了主意。</p>
+<p>其实已经快放弃了，直到准备保存一个模型，打开了目录。</p>
+<p><img src="/uploads/blender/cdir.png" alt="img"></p>
+<p>发现这儿有一个My Commands，尝试把Blender Plugins放进去。</p>
+<p><img src="/uploads/blender/instc.png" alt="img"></p>
+<p>终于看到了Blender的选项，我服了写官方文档的老6，你想写的其实是放进我的文档下的Visual Components下吧？！</p>
+<p>顺便写一个问题2</p>
+<p>指定渲染路径时，提示不能选择输出的文件。</p>
+<p>搜索发现不少人在问。</p>
+<p><img src="/uploads/blender/Q2.png" alt="img"></p>
+<p>解决办法：在你想要输出的目标，手工任置一个[文件名].png，再重新指定渲染路径为这个文件。完成后，这个文件就可以删除了，输出目录也成功设定了。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/uploads/bilibili_qr.jpg">
+          <span class="icon">
+            <i class="fa-brands fa-bilibili"></i>
+          </span>
+
+          <span class="label">Bilibili</span>
+        </a>
+      </div>
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/uploads/WeChat_QR.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
+
+          <span class="label">WeChat</span>
+        </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/TWINS/" rel="tag"># TWINS</a>
+              <a href="/tags/%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F/" rel="tag"># 数字孪生</a>
+              <a href="/tags/Blender%E6%8F%92%E4%BB%B6/" rel="tag"># Blender插件</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/04/30/disforqiqi/" rel="prev" title="气相/汽相之争">
+                  <i class="fa fa-chevron-left"></i> 气相/汽相之争
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NjUwNi8zMjk2OQ=="></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2022 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">安德</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+    </div>
+  </footer>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+<script src="/js/third-party/comments/livere.js"></script>
+
+</body>
+</html>

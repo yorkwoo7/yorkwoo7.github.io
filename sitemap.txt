@@ -1,3 +1,4 @@
+http://example.com/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/
 http://example.com/2024/04/30/disforqiqi/
 http://example.com/2023/07/21/Third%20app%20cant%20find%20that%20Windows%20map%20disk%20issue/
 http://example.com/2023/07/21/RDP%20long%20time%20encrypted%20issus/
@@ -27,9 +28,12 @@ http://example.com/tags/AUDL/
 http://example.com/tags/Server/
 http://example.com/tags/Datasheet/
 http://example.com/tags/component/
-http://example.com/tags/system/
 http://example.com/tags/%E7%9C%9F%E7%A9%BA%E6%B0%94%E7%9B%B8%E7%84%8A/
 http://example.com/tags/%E6%B1%BD%E7%9B%B8%E7%84%8A/
+http://example.com/tags/TWINS/
+http://example.com/tags/%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F/
+http://example.com/tags/Blender%E6%8F%92%E4%BB%B6/
+http://example.com/tags/system/
 http://example.com/categories/DFM/
 http://example.com/categories/%E9%A3%9E%E7%9B%98/
 http://example.com/categories/IT/

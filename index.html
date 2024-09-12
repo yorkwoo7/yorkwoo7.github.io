@@ -156,7 +156,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-count">17</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -167,7 +167,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">15</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -221,6 +221,132 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.gif">
+      <meta itemprop="name" content="安德">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="GOOD部落">
+      <meta itemprop="description" content="一个SMT、DFM、智能硬件、物联网、思维导图、产品设计、电子数码、极限飞盘相关内容分享创客自媒体。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | GOOD部落">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/09/12/Visual%20Component%204.7%20Blender%20plugin%20install%20issue/" class="post-title-link" itemprop="url">Visual Component 4.7 Blender渲染插件安装</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-09-12 22:50:15 / 修改时间：23:29:17" itemprop="dateCreated datePublished" datetime="2024-09-12T22:50:15+08:00">2024-09-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/" itemprop="url" rel="index"><span itemprop="name">IT</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Visual-Component-4-7-Blender渲染插件安装"><a href="#Visual-Component-4-7-Blender渲染插件安装" class="headerlink" title="Visual Component 4.7 Blender渲染插件安装"></a>Visual Component 4.7 Blender渲染插件安装</h2><p><strong>Visual Components</strong>（简称VC），是一款在智能制造、数字化工厂和数字孪生领域广泛使用的3D制造仿真软件。它以直观的界面和对多种CAD文件格式的支持，为用户提供了轻松设计和集成数字仿真环境的可能。</p>
+<p><strong>Blender</strong>，作为一款功能全面的免费开源3D创作套件，不仅支持建模、渲染、动画制作等3D管线的各个环节，而且在电影工业中也得到了广泛应用。</p>
+<p>通过将VC与Blender结合，用户可以直接在Blender中操作和渲染VC的3D模型，实现更为逼真的视觉效果。以下是渲染前后的对比图：</p>
+<ul>
+<li><p>渲染前的视觉效果</p>
+<p><img src="/uploads/blender/render-b.png" alt="img"></p>
+</li>
+<li><p>渲染后的视觉效果</p>
+<p><img src="/uploads/blender/render-a.png" alt="img"></p>
+</li>
+</ul>
+<p>通过大量时间的投入，甚至可以达到下图所示的高质量效果。</p>
+<p><img src="/uploads/blender/render-c.png" alt="img"></p>
+<p>实际上，VC支持Blender插件化，这使得两者的结合更加紧密，无需导入导出模型，使用起来更为便捷。然而，在安装过程中，我遇到了一些挑战。尽管最终问题得以解决，但这个过程耗费了我近4个小时。在此，我记录下这些经验，希望对同样使用VC 4.7版本的人有所帮助。</p>
+<p><strong>安装步骤：</strong></p>
+<ol>
+<li><p><strong>安装Visual Components 4.7</strong>：这是一个Autodesk的付费软件，请自行准备。</p>
+</li>
+<li><p><strong>安装Blender</strong>：建议使用长期支持版本（LTS）。安装过程简单，按照默认选项直至完成。若遇到问题，建议自行搜索解决方案或使用我提供的下载链接:</p>
+<p> <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1951ln9k4H-wzYyh_EHEi1A?pwd=6666">https://pan.baidu.com/s/1951ln9k4H-wzYyh_EHEi1A?pwd=6666</a></p>
+</li>
+<li><p><strong>准备Blender****插件</strong>：请使用与Blender版本相匹配的插件。如果你不想自己寻找，可以使用我提供的下载链接:</p>
+<p> <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/16--R4Bmz3x8tSifaK4kZew?pwd=6666">https://pan.baidu.com/s/16--R4Bmz3x8tSifaK4kZew?pwd=6666</a></p>
+</li>
+</ol>
+<p>安装Blender插件就是本文重点了。</p>
+<p>​    首先我们参考了官方文档</p>
+<p><img src="/uploads/blender/wrongofficaldoc0.jpg" alt="img"></p>
+<p>结果官方文档是错的！安装之后，VC里面始终找不到Render菜单。</p>
+<p>百度之，结果资料极少，看着日期很新，但是操作明显不对，根本没有这些菜单和工具栏。</p>
+<p><img src="/uploads/blender/wrongdoc1.png" alt="img"></p>
+<p>继续各种搜索，各种尝试。</p>
+<p><img src="/uploads/blender/ask.jpg" alt="img"></p>
+<p>因为此前从没有安装过，心里完全没有谱。甚至还怀疑起会不会是VC、Blender、Blender Plugin三者软件版本的配套关系有问题。</p>
+<p>得用啊，不死心，反复下载不同的版本，尝试在不同的目录进行安装和测试。一些安装包还只在只有外网才有，好一通折腾。</p>
+<p>但有时候不是努力就有效果的。几个小时过去，翻遍了B站和Youtube，无果。</p>
+<p>就连万能的OpenGPT也说起了车轱辘话，没了主意。</p>
+<p>其实已经快放弃了，直到准备保存一个模型，打开了目录。</p>
+<p><img src="/uploads/blender/cdir.png" alt="img"></p>
+<p>发现这儿有一个My Commands，尝试把Blender Plugins放进去。</p>
+<p><img src="/uploads/blender/instc.png" alt="img"></p>
+<p>终于看到了Blender的选项，我服了写官方文档的老6，你想写的其实是放进我的文档下的Visual Components下吧？！</p>
+<p>顺便写一个问题2</p>
+<p>指定渲染路径时，提示不能选择输出的文件。</p>
+<p>搜索发现不少人在问。</p>
+<p><img src="/uploads/blender/Q2.png" alt="img"></p>
+<p>解决办法：在你想要输出的目标，手工任置一个[文件名].png，再重新指定渲染路径为这个文件。完成后，这个文件就可以删除了，输出目录也成功设定了。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/04/30/disforqiqi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -257,7 +383,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-05-08 13:11:49" itemprop="dateModified" datetime="2024-05-08T13:11:49+08:00">2024-05-08</time>
+      <time title="修改时间：2024-05-08 13:20:08" itemprop="dateModified" datetime="2024-05-08T13:20:08+08:00">2024-05-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -306,9 +432,13 @@
 <p>大佬们中间在持续讨论，表达各自意见。</p>
 <p><img src="/uploads/discu_vap/bigboss.jpg" alt="img"></p>
 <p>于是加大了讨论范围，和业界大佬、专家、老师们一起。</p>
+<p>吴老师</p>
 <p><img src="/uploads/discu_vap/wyp.jpg" alt="img"></p>
+<p>余老师</p>
 <p><img src="/uploads/discu_vap/ycy.jpg" alt="img"></p>
+<p>杨老师</p>
 <p><img src="/uploads/discu_vap/yxy.jpg" alt="img"></p>
+<p>徐老师</p>
 <p><img src="/uploads/discu_vap/xlf.png" alt="img"></p>
 <p>最终的意见好像倒向 “气”、“汽”都可以，因为中文中，这两个字平常使用就十分地混淆。</p>
 <p>AI大模型是什么想法呢？</p>
@@ -1040,385 +1170,6 @@
 <p>将以下内容保存为xxx.reg，双击导入注册表，重启即可。</p>
 <p>Windows Registry Editor Version 5.00</p>
 <p>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]<br>“NoRecycleFiles”&#x3D;dword:00000000<br>“ConfirmFileDelete”&#x3D;dword:00000000</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/05/How%20to%20detect%20enable%20and%20disable%20SMBv1%20SMBv2%20and%20SMBv3%20in%20Windows/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.gif">
-      <meta itemprop="name" content="安德">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GOOD部落">
-      <meta itemprop="description" content="一个SMT、DFM、智能硬件、物联网、思维导图、产品设计、电子数码、极限飞盘相关内容分享创客自媒体。">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GOOD部落">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/07/05/How%20to%20detect%20enable%20and%20disable%20SMBv1%20SMBv2%20and%20SMBv3%20in%20Windows/" class="post-title-link" itemprop="url">How to detect enable and disable SMBv1 SMBv2 and SMBv3 in Windows</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-07-05 13:49:00" itemprop="dateCreated datePublished" datetime="2022-07-05T13:49:00+08:00">2022-07-05</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-01-19 10:50:26" itemprop="dateModified" datetime="2023-01-19T10:50:26+08:00">2023-01-19</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/IT/" itemprop="url" rel="index"><span itemprop="name">IT</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="How-to-detect-enable-and-disable-SMBv1-SMBv2-and-SMBv3-in-Windows"><a href="#How-to-detect-enable-and-disable-SMBv1-SMBv2-and-SMBv3-in-Windows" class="headerlink" title="How to detect enable and disable SMBv1 SMBv2 and SMBv3 in Windows"></a>How to detect enable and disable SMBv1 SMBv2 and SMBv3 in Windows</h2><p>SMB V1文件共享协议虽然存在一定的安全漏洞，不过仍然有一些设备控制等计算机的操作系统为XP或者Windows Server 2003，依旧在使用SMB V1协议。而Windows 7 64bit Service Pack 3 or higher version如Windows 10默认已经关闭SMB V1。</p>
-<p>那如果坚持要用，如此管理呢？</p>
-<h1 id="How-to-detect-enable-and-disable-SMBv1-SMBv2-and-SMBv3-in-Windows-1"><a href="#How-to-detect-enable-and-disable-SMBv1-SMBv2-and-SMBv3-in-Windows-1" class="headerlink" title="How to detect, enable and disable SMBv1, SMBv2, and SMBv3 in Windows"></a>How to detect, enable and disable SMBv1, SMBv2, and SMBv3 in Windows</h1><ul>
-<li>Article</li>
-<li>11&#x2F;06&#x2F;2021</li>
-<li>10 minutes to read</li>
-<li>12 contributors</li>
-</ul>
-<blockquote>
-<p>Applies to: Windows Server 2022, Windows 10, Windows 8.1, Windows 8, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
-</blockquote>
-<p>This article describes how to enable and disable Server Message Block (SMB) version 1 (SMBv1), SMB version 2 (SMBv2), and SMB version 3 (SMBv3) on the SMB client and server components.</p>
-<p>While disabling or removing SMBv1 might cause some compatibility issues with old computers or software, SMBv1 has significant security vulnerabilities and <a target="_blank" rel="noopener" href="https://techcommunity.microsoft.com/t5/storage-at-microsoft/stop-using-smb1/ba-p/425858">we strongly encourage you not to use it</a>.</p>
-<h2 id="Disabling-SMBv2-or-SMBv3-for-troubleshooting"><a href="#Disabling-SMBv2-or-SMBv3-for-troubleshooting" class="headerlink" title="Disabling SMBv2 or SMBv3 for troubleshooting"></a>Disabling SMBv2 or SMBv3 for troubleshooting</h2><p>We recommend keeping SMBv2 and SMBv3 enabled, but you might find it useful to disable one temporarily for troubleshooting. For more information, see <a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3#how-to-detect-status-enable-and-disable-smb-protocols-on-the-smb-server">How to detect status, enable, and disable SMB protocols on the SMB Server</a>.</p>
-<p>In Windows 10, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, and Windows Server 2012, disabling SMBv3 deactivates the following functionality:</p>
-<ul>
-<li>Transparent Failover - clients reconnect without interruption to cluster nodes during maintenance or failover</li>
-<li>Scale Out - concurrent access to shared data on all file cluster nodes </li>
-<li>Multichannel - aggregation of network bandwidth and fault tolerance if multiple paths are available between client and server</li>
-<li>SMB Direct - adds RDMA networking support for high performance, with low latency and low CPU use</li>
-<li>Encryption - Provides end-to-end encryption and protects from eavesdropping on untrustworthy networks</li>
-<li>Directory Leasing - Improves application response times in branch offices through caching</li>
-<li>Performance Optimizations - optimizations for small random read&#x2F;write I&#x2F;O</li>
-</ul>
-<p>In Windows 7 and Windows Server 2008 R2, disabling SMBv2 deactivates the following functionality:</p>
-<ul>
-<li>Request compounding - allows for sending multiple SMBv2 requests as a single network request</li>
-<li>Larger reads and writes - better use of faster networks</li>
-<li>Caching of folder and file properties - clients keep local copies of folders and files</li>
-<li>Durable handles - allow for connection to transparently reconnect to the server if there’s a temporary disconnection</li>
-<li>Improved message signing - HMAC SHA-256 replaces MD5 as hashing algorithm</li>
-<li>Improved scalability for file sharing - number of users, shares, and open files per server greatly increased</li>
-<li>Support for symbolic links</li>
-<li>Client oplock leasing model - limits the data transferred between the client and server, improving performance on high-latency networks and increasing SMB server scalability</li>
-<li>Large MTU support - for full use of 10 Gigabit Ethernet (GbE)</li>
-<li>Improved energy efficiency - clients that have open files to a server can sleep</li>
-</ul>
-<p>The SMBv2 protocol was introduced in Windows Vista and Windows Server 2008, while the SMBv3 protocol was introduced in Windows 8 and Windows Server 2012. For more information about SMBv2 and SMBv3 capabilities, see the following articles:</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)">Server Message Block overview</a></li>
-<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/ff625695(v=ws.10)">What’s New in SMB</a></li>
-</ul>
-<h2 id="How-to-remove-SMBv1"><a href="#How-to-remove-SMBv1" class="headerlink" title="How to remove SMBv1"></a>How to remove SMBv1</h2><p>Here’s how to remove SMBv1 in Windows 10, Windows 8.1, Windows Server 2019, Windows Server 2016, and Windows 2012 R2.</p>
-<h3 id="PowerShell-methods"><a href="#PowerShell-methods" class="headerlink" title="PowerShell methods"></a>PowerShell methods</h3><p>Here are the steps to detect, disable and enable SMBv1 client and server by using PowerShell commands.</p>
-<p> Note</p>
-<p>The computer will restart after you run the PowerShell commands to disable or enable SMBv1.</p>
-<ul>
-<li><p>Detect:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-WindowsOptionalFeature</span> <span class="literal">-Online</span> <span class="literal">-FeatureName</span> SMB1Protocol</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Disable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Disable-WindowsOptionalFeature</span> <span class="literal">-Online</span> <span class="literal">-FeatureName</span> SMB1Protocol</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Enable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Enable-WindowsOptionalFeature</span> <span class="literal">-Online</span> <span class="literal">-FeatureName</span> SMB1Protocol</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="Windows-Server-2012-Windows-Server-2012-R2-Windows-Server-2016-Windows-Server-2019-Server-Manager-method"><a href="#Windows-Server-2012-Windows-Server-2012-R2-Windows-Server-2016-Windows-Server-2019-Server-Manager-method" class="headerlink" title="Windows Server 2012 Windows Server 2012 R2, Windows Server 2016, Windows Server 2019: Server Manager method"></a>Windows Server 2012 Windows Server 2012 R2, Windows Server 2016, Windows Server 2019: Server Manager method</h3><p><img src="https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/media/detect-enable-and-disable-smbv1-v2-v3-1.png" alt="Server Manager - Dashboard method"></p>
-<p>To remove SMBv1 from Windows Server:</p>
-<ol>
-<li>On the Server Manager Dashboard of the server where you want to remove SMBv1, under <strong>Configure this local server</strong>, select <strong>Add roles and features</strong>.</li>
-<li>On the <strong>Before you begin</strong> page, select <strong>Start the Remove Roles and Features Wizard</strong>, and then on the following page, select <strong>Next</strong>.</li>
-<li>On the <strong>Select destination server</strong> page under <strong>Server Pool</strong>, ensure that the server you want to remove the feature from is selected, and then select <strong>Next</strong>.</li>
-<li>On the <strong>Remove server roles</strong> page, select <strong>Next</strong>.</li>
-<li>On the <strong>Remove features</strong> page, clear the check box for <strong>SMB 1.0&#x2F;CIFS File Sharing Support</strong> and select <strong>Next</strong>.</li>
-<li>On the <strong>Confirm removal selections</strong> page, confirm that the feature is listed, and then select <strong>Remove</strong>.</li>
-</ol>
-<h3 id="Windows-8-1-and-Windows-10-Add-or-Remove-Programs-method"><a href="#Windows-8-1-and-Windows-10-Add-or-Remove-Programs-method" class="headerlink" title="Windows 8.1 and Windows 10: Add or Remove Programs method"></a>Windows 8.1 and Windows 10: Add or Remove Programs method</h3><p><img src="https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/media/detect-enable-and-disable-smbv1-v2-v3-2.png" alt="Add-Remove Programs client method"></p>
-<p>To disable SMBv1 on Windows 8.1 and Windows 10:</p>
-<ol>
-<li>In <strong>Control Panel</strong>, select <strong>Programs and Features</strong>.</li>
-<li>Under <strong>Control Panel Home</strong>, select <strong>Turn Windows features on or off</strong> to open the <strong>Windows Features</strong> box.</li>
-<li>In the <strong>Windows Features</strong> box, scroll down the list, clear the check box for <strong>SMB 1.0&#x2F;CIFS File Sharing Support</strong> and select <strong>OK</strong>.</li>
-<li>After Windows applies the change, on the confirmation page, select <strong>Restart now</strong>.</li>
-</ol>
-<h2 id="How-to-detect-status-enable-and-disable-SMB-protocols-on-the-SMB-Server"><a href="#How-to-detect-status-enable-and-disable-SMB-protocols-on-the-SMB-Server" class="headerlink" title="How to detect status, enable, and disable SMB protocols on the SMB Server"></a>How to detect status, enable, and disable SMB protocols on the SMB Server</h2><h3 id="For-Windows-8-1-Windows-Server-2012-Windows-Server-2012-R2-Windows-10-and-Windows-Server-2019"><a href="#For-Windows-8-1-Windows-Server-2012-Windows-Server-2012-R2-Windows-10-and-Windows-Server-2019" class="headerlink" title="For Windows 8.1, Windows Server 2012, Windows Server 2012 R2, Windows 10, and Windows Server 2019"></a>For Windows 8.1, Windows Server 2012, Windows Server 2012 R2, Windows 10, and Windows Server 2019</h3><p>Windows 8 and Windows Server 2012 introduced the new <strong>Set-SMBServerConfiguration</strong> Windows PowerShell cmdlet. The cmdlet enables you to enable or disable the SMBv1, SMBv2, and SMBv3 protocols on the server component.</p>
-<p> Note</p>
-<p>When you enable or disable SMBv2 in Windows 8 or Windows Server 2012, SMBv3 is also enabled or disabled. This behavior occurs because these protocols share the same stack.</p>
-<p>You don’t have to restart the computer after you run the <strong>Set-SMBServerConfiguration</strong> cmdlet.</p>
-<h4 id="SMBv1-on-SMB-Server"><a href="#SMBv1-on-SMB-Server" class="headerlink" title="SMBv1 on SMB Server"></a>SMBv1 on SMB Server</h4><ul>
-<li><p>Detect:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-SmbServerConfiguration</span> | <span class="built_in">Select</span> EnableSMB1Protocol</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Disable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-SmbServerConfiguration</span> <span class="literal">-EnableSMB1Protocol</span> <span class="variable">$false</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Enable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-SmbServerConfiguration</span> <span class="literal">-EnableSMB1Protocol</span> <span class="variable">$true</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>For more information, see <a target="_blank" rel="noopener" href="https://techcommunity.microsoft.com/t5/Storage-at-Microsoft/Stop-using-SMB1/ba-p/425858">Server storage at Microsoft</a>.</p>
-<h4 id="SMB-v2-x2F-v3-on-SMB-Server"><a href="#SMB-v2-x2F-v3-on-SMB-Server" class="headerlink" title="SMB v2&#x2F;v3 on SMB Server"></a>SMB v2&#x2F;v3 on SMB Server</h4><ul>
-<li><p>Detect:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-SmbServerConfiguration</span> | <span class="built_in">Select</span> EnableSMB2Protocol</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Disable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-SmbServerConfiguration</span> <span class="literal">-EnableSMB2Protocol</span> <span class="variable">$false</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Enable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-SmbServerConfiguration</span> <span class="literal">-EnableSMB2Protocol</span> <span class="variable">$true</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="For-Windows-7-Windows-Server-2008-R2-Windows-Vista-and-Windows-Server-2008"><a href="#For-Windows-7-Windows-Server-2008-R2-Windows-Vista-and-Windows-Server-2008" class="headerlink" title="For Windows 7, Windows Server 2008 R2, Windows Vista, and Windows Server 2008"></a>For Windows 7, Windows Server 2008 R2, Windows Vista, and Windows Server 2008</h3><p>To enable or disable SMB protocols on an SMB Server that is running Windows 7, Windows Server 2008 R2, Windows Vista, or Windows Server 2008, use Windows PowerShell or Registry Editor.</p>
-<h4 id="PowerShell-methods-1"><a href="#PowerShell-methods-1" class="headerlink" title="PowerShell methods"></a>PowerShell methods</h4><p> Note</p>
-<p>This method requires PowerShell 2.0 or later version of PowerShell.</p>
-<h5 id="SMBv1-on-SMB-Server-1"><a href="#SMBv1-on-SMB-Server-1" class="headerlink" title="SMBv1 on SMB Server"></a>SMBv1 on SMB Server</h5><p>Detect:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-Item</span> HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters | <span class="built_in">ForEach-Object</span> &#123;<span class="built_in">Get-ItemProperty</span> <span class="variable">$_</span>.pspath&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Default configuration &#x3D; Enabled (No registry named value is created), so no SMB1 value will be returned</p>
-<p>Disable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ItemProperty</span> <span class="literal">-Path</span> <span class="string">&quot;HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters&quot;</span> SMB1 <span class="literal">-Type</span> DWORD <span class="literal">-Value</span> <span class="number">0</span> <span class="literal">-Force</span></span><br></pre></td></tr></table></figure>
-
-<p>Enable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ItemProperty</span> <span class="literal">-Path</span> <span class="string">&quot;HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters&quot;</span> SMB1 <span class="literal">-Type</span> DWORD <span class="literal">-Value</span> <span class="number">1</span> <span class="literal">-Force</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>Note</strong> You must restart the computer after you make these changes. For more information, see <a target="_blank" rel="noopener" href="https://techcommunity.microsoft.com/t5/storage-at-microsoft/stop-using-smb1/ba-p/425858">Server storage at Microsoft</a>.</p>
-<h5 id="SMBv2-x2F-v3-on-SMB-Server"><a href="#SMBv2-x2F-v3-on-SMB-Server" class="headerlink" title="SMBv2&#x2F;v3 on SMB Server"></a>SMBv2&#x2F;v3 on SMB Server</h5><p>Detect:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-ItemProperty</span> HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters | <span class="built_in">ForEach-Object</span> &#123;<span class="built_in">Get-ItemProperty</span> <span class="variable">$_</span>.pspath&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Disable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ItemProperty</span> <span class="literal">-Path</span> <span class="string">&quot;HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters&quot;</span> SMB2 <span class="literal">-Type</span> DWORD <span class="literal">-Value</span> <span class="number">0</span> <span class="literal">-Force</span></span><br></pre></td></tr></table></figure>
-
-<p>Enable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ItemProperty</span> <span class="literal">-Path</span> <span class="string">&quot;HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters&quot;</span> SMB2 <span class="literal">-Type</span> DWORD <span class="literal">-Value</span> <span class="number">1</span> <span class="literal">-Force</span></span><br></pre></td></tr></table></figure>
-
-<p> Note</p>
-<p>You must restart the computer after you make these changes.</p>
-<h4 id="Registry-Editor"><a href="#Registry-Editor" class="headerlink" title="Registry Editor"></a>Registry Editor</h4><p> Important</p>
-<p>Follow the steps in this section carefully. Serious problems might occur if you modify the registry incorrectly. Before you modify it, <a target="_blank" rel="noopener" href="https://support.microsoft.com/help/322756">back up the registry for restoration</a> in case problems occur.</p>
-<p>To enable or disable SMBv1 on the SMB server, configure the following registry key:</p>
-<p><strong>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</strong></p>
-<p>Copy</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Registry entry: SMB1</span><br><span class="line">REG_DWORD: 0 = Disabled</span><br><span class="line">REG_DWORD: 1 = Enabled</span><br><span class="line">Default: 1 = Enabled (No registry key is created)</span><br></pre></td></tr></table></figure>
-
-<p>To enable or disable SMBv2 on the SMB server, configure the following registry key:</p>
-<p><strong>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</strong></p>
-<p>Copy</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Registry entry: SMB2</span><br><span class="line">REG_DWORD: 0 = Disabled</span><br><span class="line">REG_DWORD: 1 = Enabled</span><br><span class="line">Default: 1 = Enabled (No registry key is created)</span><br></pre></td></tr></table></figure>
-
-<p> Note</p>
-<p> You must restart the computer after you make these changes.</p>
-<h2 id="How-to-detect-status-enable-and-disable-SMB-protocols-on-the-SMB-Client"><a href="#How-to-detect-status-enable-and-disable-SMB-protocols-on-the-SMB-Client" class="headerlink" title="How to detect status, enable, and disable SMB protocols on the SMB Client"></a>How to detect status, enable, and disable SMB protocols on the SMB Client</h2><p>Here is how to detect status, enable, and disable SMB protocols on the SMB Client that is running Windows 10, Windows Server 2019, Windows 8.1, Windows Server 2016, Windows Server 2012 R2, and Windows Server 2012.</p>
-<p> Note</p>
-<p>When you enable or disable SMBv2 in Windows 8 or in Windows Server 2012, SMBv3 is also enabled or disabled. This behavior occurs because these protocols share the same stack.</p>
-<h3 id="SMBv1-on-SMB-Client"><a href="#SMBv1-on-SMB-Client" class="headerlink" title="SMBv1 on SMB Client"></a>SMBv1 on SMB Client</h3><ul>
-<li><p>Detect</p>
-<p>ConsoleCopy</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sc.exe qc lanmanworkstation</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Disable:</p>
-<p>ConsoleCopy</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sc.exe config lanmanworkstation depend= bowser/mrxsmb20/nsi</span><br><span class="line">sc.exe config mrxsmb10 start= disabled</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Enable:</p>
-<p>ConsoleCopy</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sc.exe config lanmanworkstation depend= bowser/mrxsmb10/mrxsmb20/nsi</span><br><span class="line">sc.exe config mrxsmb10 start= auto</span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>For more information, see <a target="_blank" rel="noopener" href="https://techcommunity.microsoft.com/t5/storage-at-microsoft/stop-using-smb1/ba-p/425858">Server storage at Microsoft</a></p>
-<h3 id="SMBv2-x2F-v3-on-SMB-Client"><a href="#SMBv2-x2F-v3-on-SMB-Client" class="headerlink" title="SMBv2&#x2F;v3 on SMB Client"></a>SMBv2&#x2F;v3 on SMB Client</h3><ul>
-<li><p>Detect:</p>
-<p>ConsoleCopy</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sc.exe qc lanmanworkstation</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Disable:</p>
-<p>ConsoleCopy</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sc.exe config lanmanworkstation depend= bowser/mrxsmb10/nsi</span><br><span class="line">sc.exe config mrxsmb20 start= disabled</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Enable:</p>
-<p>ConsoleCopy</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sc.exe config lanmanworkstation depend= bowser/mrxsmb10/mrxsmb20/nsi</span><br><span class="line">sc.exe config mrxsmb20 start= auto</span><br></pre></td></tr></table></figure></li>
-</ul>
-<p> Note</p>
-<ul>
-<li>You must run these commands at an elevated command prompt.</li>
-<li>You must restart the computer after you make these changes.</li>
-</ul>
-<h2 id="Disable-SMBv1-by-using-Group-Policy"><a href="#Disable-SMBv1-by-using-Group-Policy" class="headerlink" title="Disable SMBv1 by using Group Policy"></a>Disable SMBv1 by using Group Policy</h2><p>This section introduces how to use Group Policy to disable SMBv1. You can use this method on different versions of Windows.</p>
-<h3 id="Disable-SMBv1-server"><a href="#Disable-SMBv1-server" class="headerlink" title="Disable SMBv1 server"></a>Disable SMBv1 server</h3><p>This procedure configures the following new item in the registry:</p>
-<p><strong>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</strong></p>
-<ul>
-<li>Registry entry: <strong>SMB1</strong></li>
-<li>REG_DWORD: <strong>0</strong> &#x3D; Disabled</li>
-</ul>
-<p>To use Group Policy to configure this, follow these steps:</p>
-<ol>
-<li><p>Open the <strong>Group Policy Management Console</strong>. Right-click the Group Policy object (GPO) that should contain the new preference item, and then click <strong>Edit</strong>.</p>
-</li>
-<li><p>In the console tree under <strong>Computer Configuration</strong>, expand the <strong>Preferences</strong> folder, and then expand the <strong>Windows Settings</strong> folder.</p>
-</li>
-<li><p>Right-click the <strong>Registry</strong> node, point to <strong>New</strong>, and select <strong>Registry Item</strong>.</p>
-<p><img src="https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/media/detect-enable-and-disable-smbv1-v2-v3-3.png" alt="Registry - New - Registry Item"></p>
-</li>
-</ol>
-<p>In the <strong>New Registry Properties</strong> dialog box, select the following:</p>
-<ul>
-<li><strong>Action</strong>: Update</li>
-<li><strong>Hive</strong>: HKEY_LOCAL_MACHINE</li>
-<li><strong>Key Path</strong>: SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</li>
-<li><strong>Value name</strong>: SMB1</li>
-<li><strong>Value type</strong>: REG_DWORD</li>
-<li><strong>Value data</strong>: 0</li>
-</ul>
-<p><img src="https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/media/detect-enable-and-disable-smbv1-v2-v3-4.png" alt="New Registry Properties - General"></p>
-<p>This procedure disables the SMBv1 Server components. This Group Policy must be applied to all necessary workstations, servers, and domain controllers in the domain.</p>
-<p> Note</p>
-<p> <a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc947846(v=ws.10)">WMI filters</a> can also be set to exclude unsupported operating systems or selected exclusions, such as Windows XP.</p>
-<p> Important</p>
-<p>Be careful when you make these changes on domain controllers on which legacy Windows XP or older Linux and third-party systems (that don’t support SMBv2 or SMBv3) require access to SYSVOL or other file shares where SMB v1 is being disabled.</p>
-<h3 id="Disable-SMBv1-client"><a href="#Disable-SMBv1-client" class="headerlink" title="Disable SMBv1 client"></a>Disable SMBv1 client</h3><p>To disable the SMBv1 client, the services registry key needs to be updated to disable the start of <strong>MRxSMB10</strong> and then the dependency on <strong>MRxSMB10</strong> needs to be removed from the entry for <strong>LanmanWorkstation</strong> so that it can start normally without requiring <strong>MRxSMB10</strong> to first start.</p>
-<p>This guidance updates and replaces the default values in the following two items in the registry:</p>
-<p><strong>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\mrxsmb10</strong></p>
-<p>Registry entry: <strong>Start</strong> REG_DWORD: <strong>4</strong>&#x3D; Disabled</p>
-<p><strong>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation</strong></p>
-<p>Registry entry: <strong>DependOnService</strong> REG_MULTI_SZ: <strong>“Bowser”,”MRxSmb20″,”NSI”</strong></p>
-<p> Note</p>
-<p> The default included MRxSMB10 which is now removed as dependency.</p>
-<p>To configure this by using Group Policy, follow these steps:</p>
-<ol>
-<li><p>Open the <strong>Group Policy Management Console</strong>. Right-click the GPO that should contain the new preference item, and then click <strong>Edit</strong>.</p>
-</li>
-<li><p>In the console tree under <strong>Computer Configuration</strong>, expand the <strong>Preferences</strong> folder, and then expand the <strong>Windows Settings</strong> folder.</p>
-</li>
-<li><p>Right-click the <strong>Registry</strong> node, point to <strong>New</strong>, and select <strong>Registry Item</strong>.</p>
-</li>
-<li><p>In the <strong>New Registry Properties</strong> dialog box, select the following:</p>
-<ul>
-<li><strong>Action</strong>: Update</li>
-<li><strong>Hive</strong>: HKEY_LOCAL_MACHINE</li>
-<li><strong>Key Path</strong>: SYSTEM\CurrentControlSet\services\mrxsmb10</li>
-<li><strong>Value name</strong>: Start</li>
-<li><strong>Value type</strong>: REG_DWORD</li>
-<li><strong>Value data</strong>: 4</li>
-</ul>
-<p><img src="https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/media/detect-enable-and-disable-smbv1-v2-v3-5.png" alt="Start Properties - General"></p>
-</li>
-<li><p>Then remove the dependency on the <strong>MRxSMB10</strong> that was disabled.</p>
-<p>In the <strong>New Registry Properties</strong> dialog box, select the following:</p>
-<ul>
-<li><p><strong>Action</strong>: Replace</p>
-</li>
-<li><p><strong>Hive</strong>: HKEY_LOCAL_MACHINE</p>
-</li>
-<li><p><strong>Key Path</strong>: SYSTEM\CurrentControlSet\Services\LanmanWorkstation</p>
-</li>
-<li><p><strong>Value name</strong>: DependOnService</p>
-</li>
-<li><p><strong>Value type</strong>: REG_MULTI_SZ</p>
-</li>
-<li><p>Value data</p>
-<p>:</p>
-<ul>
-<li>Bowser</li>
-<li>MRxSmb20</li>
-<li>NSI</li>
-</ul>
-</li>
-</ul>
-<p> Note</p>
-<p>These three strings will not have bullets (see the following screen shot).</p>
-<p><img src="https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/media/detect-enable-and-disable-smbv1-v2-v3-6.png" alt="DependOnService Properties"></p>
-<p>The default value includes <strong>MRxSMB10</strong> in many versions of Windows, so by replacing them with this multi-value string, it is in effect removing <strong>MRxSMB10</strong> as a dependency for <strong>LanmanWorkstation</strong> and going from four default values down to just these three values above.</p>
-<p> Note</p>
-<p>When you use Group Policy Management Console, you don’t have to use quotation marks or commas. Just type each entry on individual lines.</p>
-</li>
-<li><p>Restart the targeted systems to finish disabling SMB v1.</p>
-</li>
-</ol>
-<h3 id="Auditing-SMBv1-usage"><a href="#Auditing-SMBv1-usage" class="headerlink" title="Auditing SMBv1 usage"></a>Auditing SMBv1 usage</h3><p>To determine which clients are attempting to connect to an SMB server with SMBv1, you can enable auditing on Windows Server 2016, Windows 10, and Windows Server 2019. You can also audit on Windows 7 and Windows Server 2008 R2 if the May 2018 monthly update is installed, and on Windows 8.1 and Windows Server 2012 R2 if the July 2017 monthly update is installed.</p>
-<ul>
-<li><p>Enable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-SmbServerConfiguration</span> <span class="literal">-AuditSmb1Access</span> <span class="variable">$true</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Disable:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-SmbServerConfiguration</span> <span class="literal">-AuditSmb1Access</span> <span class="variable">$false</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Detect:</p>
-<p>PowerShellCopy</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-SmbServerConfiguration</span> | <span class="built_in">Select</span> AuditSmb1Access</span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>When SMBv1 auditing is enabled, event 3000 appears in the “Microsoft-Windows-SMBServer\Audit” event log, identifying each client that attempts to connect with SMBv1.</p>
 <p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
 
       
