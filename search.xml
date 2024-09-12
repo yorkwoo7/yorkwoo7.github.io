@@ -438,29 +438,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SMD Code Databook 2010 Edition</title>
-    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
-    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
-<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
-<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
-<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
-<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
-<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
-<p>关注微信公众号 <strong>GOOD部落</strong> </p>
-<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
-<p>解压密码：<strong>6666</strong></p>
-<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>SMT</category>
-      </categories>
-      <tags>
-        <tag>Datasheet</tag>
-        <tag>component</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SVN commit LOG hooks</title>
     <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
     <content><![CDATA[<h2 id="SVN-commit-Log-hooks"><a href="#SVN-commit-Log-hooks" class="headerlink" title="SVN commit Log hooks"></a>SVN commit Log hooks</h2><p>SVN是优秀的版本管理器，VisualSVN+TortoriseSVN组合适用于Windows平台。</p>
@@ -477,39 +454,6 @@
 <figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"> @<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">setlocal</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> REPOS=%<span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> TXN=%<span class="number">2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 保障8个字符日志。一个句号代表一个字符。</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> &quot;……&quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :err</span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 过滤空字符</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> /ic:&quot;  &quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :success</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 提交失败，请添加日志最少<span class="number">8</span>个字符。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 禁止空格凑字。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">goto</span> :err_exit</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err_exit</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:success</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
 
 <p>搞定，试一下吧。</p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第三方软件看到Windows映射盘的解决</title>
-    <url>/2023/07/21/Third%20app%20cant%20find%20that%20Windows%20map%20disk%20issue/</url>
-    <content><![CDATA[<h2 id="第三方软件看到Windows映射盘的解决"><a href="#第三方软件看到Windows映射盘的解决" class="headerlink" title="第三方软件看到Windows映射盘的解决"></a>第三方软件看到Windows映射盘的解决</h2><p>有时候，我们在CMD使用net use命令或者在资源管理器映射网络驱动器之后，第三方软件却无法看到和使用这个磁盘。</p>
-<p>处理办法如下：</p>
-<p>1打开“程序和功能”里的“启用或关闭Windows功能”，“SMB直通”前打上勾</p>
-<p>2注册表创建EnableLinkedConnections</p>
-<p>详细步骤：</p>
-<ol>
-<li><p>单击“开始”，在“运行”框中键入regedit，然后按Enter。</p>
-</li>
-<li><p>找到并右键单击注册表子项HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System</p>
-</li>
-<li><p>指向“新建”，然后单击“DWORD值”。</p>
-</li>
-<li><p>键入EnableLinkedConnections，然后按Enter。</p>
-</li>
-<li><p>右键单击“EnableLinkedConnections”，然后单击“修改”。</p>
-</li>
-<li><p>在“数值数据”框中，键入1，然后单击“确定”。</p>
-</li>
-<li><p>退出注册表编辑器，然后重新启动计算机</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-</li>
-</ol>
 ]]></content>
       <categories>
         <category>IT</category>
@@ -580,6 +524,62 @@
       </tags>
   </entry>
   <entry>
+    <title>SMD Code Databook 2010 Edition</title>
+    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
+    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
+<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
+<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
+<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
+<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
+<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
+<p>关注微信公众号 <strong>GOOD部落</strong> </p>
+<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
+<p>解压密码：<strong>6666</strong></p>
+<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>SMT</category>
+      </categories>
+      <tags>
+        <tag>Datasheet</tag>
+        <tag>component</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第三方软件看到Windows映射盘的解决</title>
+    <url>/2023/07/21/Third%20app%20cant%20find%20that%20Windows%20map%20disk%20issue/</url>
+    <content><![CDATA[<h2 id="第三方软件看到Windows映射盘的解决"><a href="#第三方软件看到Windows映射盘的解决" class="headerlink" title="第三方软件看到Windows映射盘的解决"></a>第三方软件看到Windows映射盘的解决</h2><p>有时候，我们在CMD使用net use命令或者在资源管理器映射网络驱动器之后，第三方软件却无法看到和使用这个磁盘。</p>
+<p>处理办法如下：</p>
+<p>1打开“程序和功能”里的“启用或关闭Windows功能”，“SMB直通”前打上勾</p>
+<p>2注册表创建EnableLinkedConnections</p>
+<p>详细步骤：</p>
+<ol>
+<li><p>单击“开始”，在“运行”框中键入regedit，然后按Enter。</p>
+</li>
+<li><p>找到并右键单击注册表子项HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System</p>
+</li>
+<li><p>指向“新建”，然后单击“DWORD值”。</p>
+</li>
+<li><p>键入EnableLinkedConnections，然后按Enter。</p>
+</li>
+<li><p>右键单击“EnableLinkedConnections”，然后单击“修改”。</p>
+</li>
+<li><p>在“数值数据”框中，键入1，然后单击“确定”。</p>
+</li>
+<li><p>退出注册表编辑器，然后重新启动计算机</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>气相/汽相之争</title>
     <url>/2024/04/30/disforqiqi/</url>
     <content><![CDATA[<h2 id="气相-x2F-汽相之争"><a href="#气相-x2F-汽相之争" class="headerlink" title="气相&#x2F;汽相之争"></a><strong>气相&#x2F;汽相之争</strong></h2><p>（未询问讨论人的个人意见，文章中人物身份均做消隐处理）</p>
@@ -633,6 +633,19 @@
       </tags>
   </entry>
   <entry>
+    <title>reinstall test</title>
+    <url>/2024/04/06/reinstall%20test/</url>
+    <content><![CDATA[<h2 id="reinstall-test"><a href="#reinstall-test" class="headerlink" title="reinstall test"></a>reinstall test</h2><p>hello world</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/05/27/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -665,19 +678,6 @@
       </categories>
       <tags>
         <tag>system</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>reinstall test</title>
-    <url>/2024/04/06/reinstall%20test/</url>
-    <content><![CDATA[<h2 id="reinstall-test"><a href="#reinstall-test" class="headerlink" title="reinstall test"></a>reinstall test</h2><p>hello world</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Server</tag>
       </tags>
   </entry>
 </search>
