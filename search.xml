@@ -69,20 +69,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Frisbee:AUDL Highlights &#39;Re-cut&#39;</title>
-    <url>/2022/05/29/Frisbee_AUDL%20Highlights%20&#39;Re-cut&#39;/</url>
-    <content><![CDATA[<p>Frisbee:AUDL Highlights ‘Re-cut’</p>
-<iframe src="//player.bilibili.com/player.html?aid=638883551&bvid=BV1PY4y1r7yp&cid=717666278&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-]]></content>
-      <categories>
-        <category>飞盘</category>
-      </categories>
-      <tags>
-        <tag>frisbee</tag>
-        <tag>极限飞盘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Frisbee:2022 AUDL：Carolina Flyers at Tampa Bay Cannons week 2 game</title>
     <url>/2022/05/29/Frisbee_2022%20AUDL%20Carolina%20Flyers%20at%20Tampa%20Bay%20Cannons%20week%202%20game/</url>
     <content><![CDATA[<p>Frisbee:2022 AUDL：Carolina Flyers at Tampa Bay Cannons week 2 game</p>
@@ -96,6 +82,20 @@
         <tag>极限飞盘</tag>
         <tag>2022</tag>
         <tag>AUDL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Frisbee:AUDL Highlights &#39;Re-cut&#39;</title>
+    <url>/2022/05/29/Frisbee_AUDL%20Highlights%20&#39;Re-cut&#39;/</url>
+    <content><![CDATA[<p>Frisbee:AUDL Highlights ‘Re-cut’</p>
+<iframe src="//player.bilibili.com/player.html?aid=638883551&bvid=BV1PY4y1r7yp&cid=717666278&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+]]></content>
+      <categories>
+        <category>飞盘</category>
+      </categories>
+      <tags>
+        <tag>frisbee</tag>
+        <tag>极限飞盘</tag>
       </tags>
   </entry>
   <entry>
@@ -419,48 +419,6 @@
       </tags>
   </entry>
   <entry>
-    <title>内网远程桌面连接卡在加密很久的解决</title>
-    <url>/2023/07/21/RDP%20long%20time%20encrypted%20issus/</url>
-    <content><![CDATA[<h2 id="内网远程桌面长时间加密远程连接的解决"><a href="#内网远程桌面长时间加密远程连接的解决" class="headerlink" title="内网远程桌面长时间加密远程连接的解决"></a>内网远程桌面长时间加密远程连接的解决</h2><p>内网使用远程桌面时，一直提示“正在加密远程连接…”，很久才能连接上。产生的原因是内网没有互联网连接，无法连接到证书服务器，一直等到连接超时，才继续执行。</p>
-<p>解决办法是关闭证书更新。</p>
-<p>1、键入组合键Win+R，输入gpedit.msc，回车进入组策略管理器</p>
-<p>2、选择“计算机配置”&gt;”管理模板”</p>
-<p>3、选择“系统”&gt;“internet通信管理”&gt;选择”Internet通信设置“</p>
-<p>4、双击”关闭根证书更新“，将值改为”已启用“</p>
-<p>5、键入组合键Win+R，输入gpupdate &#x2F;force 回车，更新组策略或者重新启动操作系统，生效。</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SMD Code Databook 2010 Edition</title>
-    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
-    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
-<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
-<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
-<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
-<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
-<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
-<p>关注微信公众号 <strong>GOOD部落</strong> </p>
-<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
-<p>解压密码：<strong>6666</strong></p>
-<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>SMT</category>
-      </categories>
-      <tags>
-        <tag>Datasheet</tag>
-        <tag>component</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SVN commit LOG hooks</title>
     <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
     <content><![CDATA[<h2 id="SVN-commit-Log-hooks"><a href="#SVN-commit-Log-hooks" class="headerlink" title="SVN commit Log hooks"></a>SVN commit Log hooks</h2><p>SVN是优秀的版本管理器，VisualSVN+TortoriseSVN组合适用于Windows平台。</p>
@@ -477,6 +435,25 @@
 <figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"> @<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">setlocal</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> REPOS=%<span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> TXN=%<span class="number">2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 保障8个字符日志。一个句号代表一个字符。</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> &quot;……&quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :err</span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 过滤空字符</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> /ic:&quot;  &quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :success</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 提交失败，请添加日志最少<span class="number">8</span>个字符。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 禁止空格凑字。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">goto</span> :err_exit</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err_exit</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:success</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
 
 <p>搞定，试一下吧。</p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内网远程桌面连接卡在加密很久的解决</title>
+    <url>/2023/07/21/RDP%20long%20time%20encrypted%20issus/</url>
+    <content><![CDATA[<h2 id="内网远程桌面长时间加密远程连接的解决"><a href="#内网远程桌面长时间加密远程连接的解决" class="headerlink" title="内网远程桌面长时间加密远程连接的解决"></a>内网远程桌面长时间加密远程连接的解决</h2><p>内网使用远程桌面时，一直提示“正在加密远程连接…”，很久才能连接上。产生的原因是内网没有互联网连接，无法连接到证书服务器，一直等到连接超时，才继续执行。</p>
+<p>解决办法是关闭证书更新。</p>
+<p>1、键入组合键Win+R，输入gpedit.msc，回车进入组策略管理器</p>
+<p>2、选择“计算机配置”&gt;”管理模板”</p>
+<p>3、选择“系统”&gt;“internet通信管理”&gt;选择”Internet通信设置“</p>
+<p>4、双击”关闭根证书更新“，将值改为”已启用“</p>
+<p>5、键入组合键Win+R，输入gpupdate &#x2F;force 回车，更新组策略或者重新启动操作系统，生效。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
 ]]></content>
       <categories>
         <category>IT</category>
@@ -516,59 +493,6 @@
       </categories>
       <tags>
         <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>气相/汽相之争</title>
-    <url>/2024/04/30/disforqiqi/</url>
-    <content><![CDATA[<h2 id="气相-x2F-汽相之争"><a href="#气相-x2F-汽相之争" class="headerlink" title="气相&#x2F;汽相之争"></a><strong>气相&#x2F;汽相之争</strong></h2><p>（未询问讨论人的个人意见，文章中人物身份均做消隐处理）</p>
-<p>今天(24-04-30)大家为气相&#x2F;汽相争论不休了。</p>
-<p>起因是昨天（4-29号）EMI电子制造产业学院公众号发布了《真空气相焊专项精修训练营报名通知》。</p>
-<p><img src="/uploads/discu_vap/post_jt.jpg" alt="img"></p>
-<p>业内人士指出，错了，应该是真空汽相焊才对。于是引发了一场讨论。有点意思。</p>
-<p><img src="/uploads/discu_vap/zgz.jpg" alt="img"></p>
-<p>然后院领导指示进行修改。</p>
-<p><img src="/uploads/discu_vap/lg.jpg" alt="img"></p>
-<p>然后就开始了一场讨论。</p>
-<p>首先本人观点自然认为：气是对的。理由是：气被加在“相” 字之前，所以应该确指是物质形态，所以应该用”气“。</p>
-<p><img src="/uploads/discu_vap/qiqi_diff.jpg" alt="img"></p>
-<p>我的其他理由还有各类硬件厂商的习惯性用法。比如Rehm，顶尖再流设备厂商之一。去年在写通孔回流焊团体标准的时候，就已经注意到这个术语的不一，和REHM袁工等工程师已经有过讨论，所谓”研究过“。</p>
-<p><img src="/uploads/discu_vap/rehm.png" alt="img"></p>
-<p>比如：苏威，全球最大的气相液供应商之一，Galden是他们的标志性产品。</p>
-<p><img src="/uploads/discu_vap/solvay.png" alt="img"></p>
-<p>比如：浩宝，国产真空气相焊厂商，他们的新闻稿中用的也是”气“。</p>
-<p><img src="/uploads/discu_vap/hb.jpg" alt="img"></p>
-<p>没过一小时，我的BOSS表示应该修订，理由很强力，各类标准文件中，用的都是“汽”。</p>
-<p>不过因为公众号文章只能修改一次，20个字符，此前已经被修改过，因此没有办法再改了。</p>
-<p><img src="/uploads/discu_vap/lhf.jpg" alt="img"></p>
-<p>大佬们中间在持续讨论，表达各自意见。</p>
-<p><img src="/uploads/discu_vap/bigboss.jpg" alt="img"></p>
-<p>于是加大了讨论范围，和业界大佬、专家、老师们一起。</p>
-<p>吴老师</p>
-<p><img src="/uploads/discu_vap/wyp.jpg" alt="img"></p>
-<p>余老师</p>
-<p><img src="/uploads/discu_vap/ycy.jpg" alt="img"></p>
-<p>杨老师</p>
-<p><img src="/uploads/discu_vap/yxy.jpg" alt="img"></p>
-<p>徐老师</p>
-<p><img src="/uploads/discu_vap/xlf.png" alt="img"></p>
-<p>最终的意见好像倒向 “气”、“汽”都可以，因为中文中，这两个字平常使用就十分地混淆。</p>
-<p>AI大模型是什么想法呢？</p>
-<p>暗之月面KIMI大模型的意见：</p>
-<p><img src="/uploads/discu_vap/KIMI.jpg" alt="img"></p>
-<p>ChatGPT的意见</p>
-<p><img src="/uploads/discu_vap/ChatGPT.jpg" alt="img"></p>
-<p>那么，请问您的意见呢？</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>SMT</category>
-        <category>Reflow</category>
-      </categories>
-      <tags>
-        <tag>SMT</tag>
-        <tag>真空气相焊</tag>
-        <tag>汽相焊</tag>
       </tags>
   </entry>
   <entry>
@@ -630,6 +554,82 @@
         <tag>TWINS</tag>
         <tag>数字孪生</tag>
         <tag>Blender插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>气相/汽相之争</title>
+    <url>/2024/04/30/disforqiqi/</url>
+    <content><![CDATA[<h2 id="气相-x2F-汽相之争"><a href="#气相-x2F-汽相之争" class="headerlink" title="气相&#x2F;汽相之争"></a><strong>气相&#x2F;汽相之争</strong></h2><p>（未询问讨论人的个人意见，文章中人物身份均做消隐处理）</p>
+<p>今天(24-04-30)大家为气相&#x2F;汽相争论不休了。</p>
+<p>起因是昨天（4-29号）EMI电子制造产业学院公众号发布了《真空气相焊专项精修训练营报名通知》。</p>
+<p><img src="/uploads/discu_vap/post_jt.jpg" alt="img"></p>
+<p>业内人士指出，错了，应该是真空汽相焊才对。于是引发了一场讨论。有点意思。</p>
+<p><img src="/uploads/discu_vap/zgz.jpg" alt="img"></p>
+<p>然后院领导指示进行修改。</p>
+<p><img src="/uploads/discu_vap/lg.jpg" alt="img"></p>
+<p>然后就开始了一场讨论。</p>
+<p>首先本人观点自然认为：气是对的。理由是：气被加在“相” 字之前，所以应该确指是物质形态，所以应该用”气“。</p>
+<p><img src="/uploads/discu_vap/qiqi_diff.jpg" alt="img"></p>
+<p>我的其他理由还有各类硬件厂商的习惯性用法。比如Rehm，顶尖再流设备厂商之一。去年在写通孔回流焊团体标准的时候，就已经注意到这个术语的不一，和REHM袁工等工程师已经有过讨论，所谓”研究过“。</p>
+<p><img src="/uploads/discu_vap/rehm.png" alt="img"></p>
+<p>比如：苏威，全球最大的气相液供应商之一，Galden是他们的标志性产品。</p>
+<p><img src="/uploads/discu_vap/solvay.png" alt="img"></p>
+<p>比如：浩宝，国产真空气相焊厂商，他们的新闻稿中用的也是”气“。</p>
+<p><img src="/uploads/discu_vap/hb.jpg" alt="img"></p>
+<p>没过一小时，我的BOSS表示应该修订，理由很强力，各类标准文件中，用的都是“汽”。</p>
+<p>不过因为公众号文章只能修改一次，20个字符，此前已经被修改过，因此没有办法再改了。</p>
+<p><img src="/uploads/discu_vap/lhf.jpg" alt="img"></p>
+<p>大佬们中间在持续讨论，表达各自意见。</p>
+<p><img src="/uploads/discu_vap/bigboss.jpg" alt="img"></p>
+<p>于是加大了讨论范围，和业界大佬、专家、老师们一起。</p>
+<p>吴老师</p>
+<p><img src="/uploads/discu_vap/wyp.jpg" alt="img"></p>
+<p>余老师</p>
+<p><img src="/uploads/discu_vap/ycy.jpg" alt="img"></p>
+<p>杨老师</p>
+<p><img src="/uploads/discu_vap/yxy.jpg" alt="img"></p>
+<p>徐老师</p>
+<p><img src="/uploads/discu_vap/xlf.png" alt="img"></p>
+<p>最终的意见好像倒向 “气”、“汽”都可以，因为中文中，这两个字平常使用就十分地混淆。</p>
+<p>AI大模型是什么想法呢？</p>
+<p>暗之月面KIMI大模型的意见：</p>
+<p><img src="/uploads/discu_vap/KIMI.jpg" alt="img"></p>
+<p>ChatGPT的意见</p>
+<p><img src="/uploads/discu_vap/ChatGPT.jpg" alt="img"></p>
+<p>那么，请问您的意见呢？</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>SMT</category>
+        <category>Reflow</category>
+      </categories>
+      <tags>
+        <tag>SMT</tag>
+        <tag>真空气相焊</tag>
+        <tag>汽相焊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SMD Code Databook 2010 Edition</title>
+    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
+    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
+<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
+<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
+<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
+<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
+<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
+<p>关注微信公众号 <strong>GOOD部落</strong> </p>
+<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
+<p>解压密码：<strong>6666</strong></p>
+<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>SMT</category>
+      </categories>
+      <tags>
+        <tag>Datasheet</tag>
+        <tag>component</tag>
       </tags>
   </entry>
   <entry>
