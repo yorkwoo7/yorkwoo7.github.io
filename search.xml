@@ -419,6 +419,48 @@
       </tags>
   </entry>
   <entry>
+    <title>内网远程桌面连接卡在加密很久的解决</title>
+    <url>/2023/07/21/RDP%20long%20time%20encrypted%20issus/</url>
+    <content><![CDATA[<h2 id="内网远程桌面长时间加密远程连接的解决"><a href="#内网远程桌面长时间加密远程连接的解决" class="headerlink" title="内网远程桌面长时间加密远程连接的解决"></a>内网远程桌面长时间加密远程连接的解决</h2><p>内网使用远程桌面时，一直提示“正在加密远程连接…”，很久才能连接上。产生的原因是内网没有互联网连接，无法连接到证书服务器，一直等到连接超时，才继续执行。</p>
+<p>解决办法是关闭证书更新。</p>
+<p>1、键入组合键Win+R，输入gpedit.msc，回车进入组策略管理器</p>
+<p>2、选择“计算机配置”&gt;”管理模板”</p>
+<p>3、选择“系统”&gt;“internet通信管理”&gt;选择”Internet通信设置“</p>
+<p>4、双击”关闭根证书更新“，将值改为”已启用“</p>
+<p>5、键入组合键Win+R，输入gpupdate &#x2F;force 回车，更新组策略或者重新启动操作系统，生效。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Server</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SMD Code Databook 2010 Edition</title>
+    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
+    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
+<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
+<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
+<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
+<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
+<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
+<p>关注微信公众号 <strong>GOOD部落</strong> </p>
+<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
+<p>解压密码：<strong>6666</strong></p>
+<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
+<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
+]]></content>
+      <categories>
+        <category>SMT</category>
+      </categories>
+      <tags>
+        <tag>Datasheet</tag>
+        <tag>component</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SVN commit LOG hooks</title>
     <url>/2022/06/01/SVN_commit_LOG_hooks/</url>
     <content><![CDATA[<h2 id="SVN-commit-Log-hooks"><a href="#SVN-commit-Log-hooks" class="headerlink" title="SVN commit Log hooks"></a>SVN commit Log hooks</h2><p>SVN是优秀的版本管理器，VisualSVN+TortoriseSVN组合适用于Windows平台。</p>
@@ -435,25 +477,6 @@
 <figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"> @<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">setlocal</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> REPOS=%<span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> TXN=%<span class="number">2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 保障8个字符日志。一个句号代表一个字符。</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> &quot;……&quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :err</span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem 过滤空字符</span></span><br><span class="line"></span><br><span class="line">svnlook log &quot;<span class="variable">%REPOS%</span>&quot; -t &quot;<span class="variable">%TXN%</span>&quot; | <span class="built_in">findstr</span> /ic:&quot;  &quot; &gt;<span class="built_in">nul</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="variable">%errorlevel%</span> <span class="keyword">gtr</span> <span class="number">0</span> <span class="keyword">goto</span> :success</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 提交失败，请添加日志最少<span class="number">8</span>个字符。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 禁止空格凑字。 <span class="number">1</span>&gt;&amp;<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">goto</span> :err_exit</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:err_exit</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">:success</span><br><span class="line"></span><br><span class="line"><span class="keyword">exit</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
 
 <p>搞定，试一下吧。</p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内网远程桌面连接卡在加密很久的解决</title>
-    <url>/2023/07/21/RDP%20long%20time%20encrypted%20issus/</url>
-    <content><![CDATA[<h2 id="内网远程桌面长时间加密远程连接的解决"><a href="#内网远程桌面长时间加密远程连接的解决" class="headerlink" title="内网远程桌面长时间加密远程连接的解决"></a>内网远程桌面长时间加密远程连接的解决</h2><p>内网使用远程桌面时，一直提示“正在加密远程连接…”，很久才能连接上。产生的原因是内网没有互联网连接，无法连接到证书服务器，一直等到连接超时，才继续执行。</p>
-<p>解决办法是关闭证书更新。</p>
-<p>1、键入组合键Win+R，输入gpedit.msc，回车进入组策略管理器</p>
-<p>2、选择“计算机配置”&gt;”管理模板”</p>
-<p>3、选择“系统”&gt;“internet通信管理”&gt;选择”Internet通信设置“</p>
-<p>4、双击”关闭根证书更新“，将值改为”已启用“</p>
-<p>5、键入组合键Win+R，输入gpupdate &#x2F;force 回车，更新组策略或者重新启动操作系统，生效。</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
 ]]></content>
       <categories>
         <category>IT</category>
@@ -532,14 +555,16 @@
 <p>继续各种搜索，各种尝试。</p>
 <p><img src="/uploads/blender/ask.jpg" alt="img"></p>
 <p>因为此前从没有安装过，心里完全没有谱。甚至还怀疑起会不会是VC、Blender、Blender Plugin三者软件版本的配套关系有问题。</p>
-<p>得用啊，不死心，反复下载不同的版本，尝试在不同的目录进行安装和测试。一些安装包还只在外网才有，好一通折腾。</p>
-<p>但有时候不是努力就有效果的。几个小时过去，翻遍了B站和Youtube，无果。</p>
+<p>得用啊，不死心，反复下载不同的版本，尝试在不同的目录进行安装和测试。一些安装包还只在外网才有，下载困难，好一通折腾。</p>
+<p>但有时候不是努力就有效果的。几个小时过去，翻遍了网上的资料，无果。</p>
 <p>就连万能的OpenGPT也说起了车轱辘话，没了主意。</p>
-<p>其实已经快放弃了，直到准备保存一个模型，打开了目录。</p>
+<p>其实已经快放弃了，直到准备保存一个模型，软件会自动打开模型目录，我上翻一层。</p>
 <p><img src="/uploads/blender/cdir.png" alt="img"></p>
-<p>发现这儿有一个My Commands，尝试把Blender Plugins放进去。</p>
+<p>发现这儿有一个My Commands目录！，尝试把Blender Plugins放进去。</p>
 <p><img src="/uploads/blender/instc.png" alt="img"></p>
-<p>终于看到了Blender的选项，我服了写官方文档的老6，你想写的其实是放进我的文档下的Visual Components下吧？！</p>
+<p>终于看到了Blender的选项！</p>
+<p>我服了写官方文档的老6，我现在明白了，你想写的其实是把插件文件放进 我的文档 下的 Visual Components 目录下的 My Commands 下吧？！结果写成了绝对路径，忽略了各自的电脑这个路径的变化。</p>
+<p>所以问题其实就是出在Blender插件需要放到正确路径内。但是全网没有人说对这个 变量。</p>
 <p>顺便写一个问题2</p>
 <p>指定渲染路径时，提示不能选择输出的文件。</p>
 <p>搜索发现不少人在问。</p>
@@ -607,29 +632,6 @@
         <tag>SMT</tag>
         <tag>真空气相焊</tag>
         <tag>汽相焊</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SMD Code Databook 2010 Edition</title>
-    <url>/2022/06/04/SMD%20Data%20Book%202010%20Edition/</url>
-    <content><![CDATA[<h2 id="SMD-Code-Databook-2010-Edition-PDF"><a href="#SMD-Code-Databook-2010-Edition-PDF" class="headerlink" title="SMD Code Databook 2010 Edition PDF"></a>SMD Code Databook 2010 Edition PDF</h2><p>SMD Code Databook 2010 Edition：器件丝印反查手册。</p>
-<p>SMD电子元器件面积有限，无法完整标识器件型号和参数，常通过丝印缩写或代号的形式在器件顶部标识。</p>
-<p>SMD Code Databook 2010 Edition记录大量器件丝印对照表，通过查询手册可以快速通过丝印了解器件型号，以便得到进一步信息。</p>
-<p><img src="/uploads/SMDBOOK-0.png" alt="pht"></p>
-<p><img src="/uploads/SMDBOOK-1.png" alt="pht1"></p>
-<p><img src="/uploads/SMDBOOK-2.png" alt="pht2"></p>
-<p>关注微信公众号 <strong>GOOD部落</strong> </p>
-<p>在聊天框输入下载代码： <strong>下载|9001</strong> ，获得下载地址。</p>
-<p>解压密码：<strong>6666</strong></p>
-<p>如打开PDF时提示输入密码，请更新PDF阅读器。</p>
-<p><img src="/uploads/WeChat_channel.png" alt="WeChat"></p>
-]]></content>
-      <categories>
-        <category>SMT</category>
-      </categories>
-      <tags>
-        <tag>Datasheet</tag>
-        <tag>component</tag>
       </tags>
   </entry>
   <entry>
